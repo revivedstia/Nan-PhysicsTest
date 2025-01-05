@@ -14,7 +14,7 @@ namespace PhysicsTest {
 	using namespace MyDLLCLR;
 
 	/// <summary>
-	/// Сводка для OwnStatisticsForm
+	/// Г‘ГўГ®Г¤ГЄГ  Г¤Г«Гї OwnStatisticsForm
 	/// </summary>
 	public ref class OwnStatisticsForm : public System::Windows::Forms::Form
 	{
@@ -23,13 +23,13 @@ namespace PhysicsTest {
 		{
 			InitializeComponent();
 			//
-			//TODO: добавьте код конструктора
+			//TODO: Г¤Г®ГЎГ ГўГјГІГҐ ГЄГ®Г¤ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г 
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// ГЋГ±ГўГ®ГЎГ®Г¤ГЁГІГј ГўГ±ГҐ ГЁГ±ГЇГ®Г«ГјГ§ГіГҐГ¬Г»ГҐ Г°ГҐГ±ГіГ°Г±Г».
 		/// </summary>
 		~OwnStatisticsForm()
 		{
@@ -51,14 +51,14 @@ namespace PhysicsTest {
 
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// ГЋГЎГїГ§Г ГІГҐГ«ГјГ­Г Гї ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г Гї ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г .
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// Г’Г°ГҐГЎГіГҐГ¬Г»Г© Г¬ГҐГІГ®Г¤ Г¤Г«Гї ГЇГ®Г¤Г¤ГҐГ°Г¦ГЄГЁ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г  вЂ” Г­ГҐ ГЁГ§Г¬ГҐГ­ГїГ©ГІГҐ 
+		/// Г±Г®Г¤ГҐГ°Г¦ГЁГ¬Г®ГҐ ГЅГІГ®ГЈГ® Г¬ГҐГІГ®Г¤Г  Г± ГЇГ®Г¬Г®Г№ГјГѕ Г°ГҐГ¤Г ГЄГІГ®Г°Г  ГЄГ®Г¤Г .
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -99,7 +99,7 @@ namespace PhysicsTest {
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(374, 20);
 			this->label1->TabIndex = 32;
-			this->label1->Text = L"Выполнен вход в учетную запись полязователя";
+			this->label1->Text = L"Г‚Г»ГЇГ®Г«Г­ГҐГ­ ГўГµГ®Г¤ Гў ГіГ·ГҐГІГ­ГіГѕ Г§Г ГЇГЁГ±Гј ГЇГ®Г«ГїГ§Г®ГўГ ГІГҐГ«Гї";
 			// 
 			// button1
 			// 
@@ -110,7 +110,7 @@ namespace PhysicsTest {
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(166, 38);
 			this->button1->TabIndex = 34;
-			this->button1->Text = L"Назад";
+			this->button1->Text = L"ГЌГ Г§Г Г¤";
 			this->button1->UseVisualStyleBackColor = true;
 			this->button1->Click += gcnew System::EventHandler(this, &OwnStatisticsForm::button1_Click);
 			// 
@@ -122,7 +122,7 @@ namespace PhysicsTest {
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(305, 24);
 			this->label2->TabIndex = 36;
-			this->label2->Text = L"Результаты прохождения теста ";
+			this->label2->Text = L"ГђГҐГ§ГіГ«ГјГІГ ГІГ» ГЇГ°Г®ГµГ®Г¦Г¤ГҐГ­ГЁГї ГІГҐГ±ГІГ  ";
 			// 
 			// chart1
 			// 
@@ -188,7 +188,7 @@ namespace PhysicsTest {
 			this->Controls->Add(this->label1);
 			this->Name = L"OwnStatisticsForm";
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
-			this->Text = L"Личная статистика";
+			this->Text = L"Г‹ГЁГ·Г­Г Гї Г±ГІГ ГІГЁГ±ГІГЁГЄГ ";
 			this->Load += gcnew System::EventHandler(this, &OwnStatisticsForm::OwnStatisticsForm_Load);
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->chart1))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView1))->EndInit();
@@ -206,16 +206,16 @@ private: System::Void OwnStatisticsForm_Load(System::Object^ sender, System::Eve
 	if (count == 0) {
 		dataGridView1->Hide();
 		chart1->Hide();
-		label2->Text = "Вы ещё не проходили тестирование.";
+		label2->Text = "Г‚Г» ГҐГ№Вё Г­ГҐ ГЇГ°Г®ГµГ®Г¤ГЁГ«ГЁ ГІГҐГ±ГІГЁГ°Г®ГўГ Г­ГЁГҐ.";
 	}
 	else {
 		dataGridView1->ColumnCount = 3;
 		dataGridView1->RowCount = count + 1;
 		dataGridView1->Height = (count + 1) * 24 + 2;
 		//dataGridView1->Sele =0;
-		dataGridView1->Rows[0]->Cells[0]->Value = "Дата прохождения";
-		dataGridView1->Rows[0]->Cells[1]->Value = "Количество правильных ответов";
-		dataGridView1->Rows[0]->Cells[2]->Value = "Оценка ";
+		dataGridView1->Rows[0]->Cells[0]->Value = "Г„Г ГІГ  ГЇГ°Г®ГµГ®Г¦Г¤ГҐГ­ГЁГї";
+		dataGridView1->Rows[0]->Cells[1]->Value = "ГЉГ®Г«ГЁГ·ГҐГ±ГІГўГ® ГЇГ°Г ГўГЁГ«ГјГ­Г»Гµ Г®ГІГўГҐГІГ®Гў";
+		dataGridView1->Rows[0]->Cells[2]->Value = "ГЋГ¶ГҐГ­ГЄГ  ";
 		int c5 = 0, c4 = 0, c3 = 0, c2 = 0;
 
 		for (int i = 5; i < 5 + count; i++) {
@@ -232,10 +232,10 @@ private: System::Void OwnStatisticsForm_Load(System::Object^ sender, System::Eve
 			if (grade == 2) c2 += 1;
 
 		}
-		chart1->Series["0"]->Points->AddXY("оценка 5", c5);
-		chart1->Series["0"]->Points->AddXY("оценка 4", c4);
-		chart1->Series["0"]->Points->AddXY("оценка 3", c3);
-		chart1->Series["0"]->Points->AddXY("оценка 2", c2);
+		chart1->Series["0"]->Points->AddXY("Г®Г¶ГҐГ­ГЄГ  5", c5);
+		chart1->Series["0"]->Points->AddXY("Г®Г¶ГҐГ­ГЄГ  4", c4);
+		chart1->Series["0"]->Points->AddXY("Г®Г¶ГҐГ­ГЄГ  3", c3);
+		chart1->Series["0"]->Points->AddXY("Г®Г¶ГҐГ­ГЄГ  2", c2);
 	}
 }
 private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
