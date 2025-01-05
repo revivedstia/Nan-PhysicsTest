@@ -12,7 +12,7 @@ namespace PhysicsTest {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// Сводка для Question10Form
+	/// Г‘ГўГ®Г¤ГЄГ  Г¤Г«Гї Question10Form
 	/// </summary>
 	public ref class Question10Form : public System::Windows::Forms::Form
 	{
@@ -21,13 +21,13 @@ namespace PhysicsTest {
 		{
 			InitializeComponent();
 			//
-			//TODO: добавьте код конструктора
+			//TODO: Г¤Г®ГЎГ ГўГјГІГҐ ГЄГ®Г¤ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г 
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// ГЋГ±ГўГ®ГЎГ®Г¤ГЁГІГј ГўГ±ГҐ ГЁГ±ГЇГ®Г«ГјГ§ГіГҐГ¬Г»ГҐ Г°ГҐГ±ГіГ°Г±Г».
 		/// </summary>
 		~Question10Form()
 		{
@@ -51,14 +51,14 @@ namespace PhysicsTest {
 
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// ГЋГЎГїГ§Г ГІГҐГ«ГјГ­Г Гї ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г Гї ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г .
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// Г’Г°ГҐГЎГіГҐГ¬Г»Г© Г¬ГҐГІГ®Г¤ Г¤Г«Гї ГЇГ®Г¤Г¤ГҐГ°Г¦ГЄГЁ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г  вЂ” Г­ГҐ ГЁГ§Г¬ГҐГ­ГїГ©ГІГҐ 
+		/// Г±Г®Г¤ГҐГ°Г¦ГЁГ¬Г®ГҐ ГЅГІГ®ГЈГ® Г¬ГҐГІГ®Г¤Г  Г± ГЇГ®Г¬Г®Г№ГјГѕ Г°ГҐГ¤Г ГЄГІГ®Г°Г  ГЄГ®Г¤Г .
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -81,7 +81,7 @@ namespace PhysicsTest {
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(244, 38);
 			this->button1->TabIndex = 1;
-			this->button1->Text = L"Заверщить тестирование";
+			this->button1->Text = L"Г‡Г ГўГҐГ°Г№ГЁГІГј ГІГҐГ±ГІГЁГ°Г®ГўГ Г­ГЁГҐ";
 			this->button1->UseVisualStyleBackColor = true;
 			this->button1->Click += gcnew System::EventHandler(this, &Question10Form::button1_Click);
 			// 
@@ -97,7 +97,7 @@ namespace PhysicsTest {
 			this->lb_otvet->Name = L"lb_otvet";
 			this->lb_otvet->Size = System::Drawing::Size(114, 23);
 			this->lb_otvet->TabIndex = 31;
-			this->lb_otvet->Text = L"Нет ответа";
+			this->lb_otvet->Text = L"ГЌГҐГІ Г®ГІГўГҐГІГ ";
 			this->lb_otvet->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
 			// label3
@@ -112,7 +112,7 @@ namespace PhysicsTest {
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(215, 23);
 			this->label3->TabIndex = 30;
-			this->label3->Text = L"Ваш вариант ответа:";
+			this->label3->Text = L"Г‚Г Гё ГўГ Г°ГЁГ Г­ГІ Г®ГІГўГҐГІГ :";
 			this->label3->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
 			// btn_4
@@ -125,7 +125,7 @@ namespace PhysicsTest {
 			this->btn_4->Name = L"btn_4";
 			this->btn_4->Size = System::Drawing::Size(338, 38);
 			this->btn_4->TabIndex = 29;
-			this->btn_4->Text = L"Линза Луненберга";
+			this->btn_4->Text = L"Г‹ГЁГ­Г§Г  Г‹ГіГ­ГҐГ­ГЎГҐГ°ГЈГ ";
 			this->btn_4->UseVisualStyleBackColor = false;
 			this->btn_4->Click += gcnew System::EventHandler(this, &Question10Form::btn_4_Click);
 			// 
@@ -139,7 +139,7 @@ namespace PhysicsTest {
 			this->btn_3->Name = L"btn_3";
 			this->btn_3->Size = System::Drawing::Size(338, 38);
 			this->btn_3->TabIndex = 27;
-			this->btn_3->Text = L"Сферический градан";
+			this->btn_3->Text = L"Г‘ГґГҐГ°ГЁГ·ГҐГ±ГЄГЁГ© ГЈГ°Г Г¤Г Г­";
 			this->btn_3->UseVisualStyleBackColor = false;
 			this->btn_3->Click += gcnew System::EventHandler(this, &Question10Form::btn_3_Click);
 			// 
@@ -153,7 +153,7 @@ namespace PhysicsTest {
 			this->btn_1->Name = L"btn_1";
 			this->btn_1->Size = System::Drawing::Size(338, 38);
 			this->btn_1->TabIndex = 26;
-			this->btn_1->Text = L"Планарный волновод";
+			this->btn_1->Text = L"ГЏГ«Г Г­Г Г°Г­Г»Г© ГўГ®Г«Г­Г®ГўГ®Г¤";
 			this->btn_1->UseVisualStyleBackColor = false;
 			this->btn_1->Click += gcnew System::EventHandler(this, &Question10Form::btn_1_Click);
 			// 
@@ -169,7 +169,7 @@ namespace PhysicsTest {
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(657, 69);
 			this->label2->TabIndex = 25;
-			this->label2->Text = L"Вопрос 10\r\n\r\nЧто из нижеперечисленного не является абсолютным прибором\?";
+			this->label2->Text = L"Г‚Г®ГЇГ°Г®Г± 10\r\n\r\nГ—ГІГ® ГЁГ§ Г­ГЁГ¦ГҐГЇГҐГ°ГҐГ·ГЁГ±Г«ГҐГ­Г­Г®ГЈГ® Г­ГҐ ГїГўГ«ГїГҐГІГ±Гї Г ГЎГ±Г®Г«ГѕГІГ­Г»Г¬ ГЇГ°ГЁГЎГ®Г°Г®Г¬\?";
 			this->label2->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
 			// btn_2
@@ -182,7 +182,7 @@ namespace PhysicsTest {
 			this->btn_2->Name = L"btn_2";
 			this->btn_2->Size = System::Drawing::Size(338, 38);
 			this->btn_2->TabIndex = 32;
-			this->btn_2->Text = L"«Рыбий глаз» Максвелла ";
+			this->btn_2->Text = L"В«ГђГ»ГЎГЁГ© ГЈГ«Г Г§В» ГЊГ ГЄГ±ГўГҐГ«Г«Г  ";
 			this->btn_2->UseVisualStyleBackColor = false;
 			this->btn_2->Click += gcnew System::EventHandler(this, &Question10Form::btn_2_Click_1);
 			// 
@@ -203,7 +203,7 @@ namespace PhysicsTest {
 			this->MinimumSize = System::Drawing::Size(972, 497);
 			this->Name = L"Question10Form";
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
-			this->Text = L"Тест по нанофизике - 10 вопрос";
+			this->Text = L"Г’ГҐГ±ГІ ГЇГ® Г­Г Г­Г®ГґГЁГ§ГЁГЄГҐ - 10 ГўГ®ГЇГ°Г®Г±";
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
@@ -212,21 +212,21 @@ namespace PhysicsTest {
 int answer = 0;
 private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
 	if (answer == 0) {
-		MessageBox::Show("Для продолжения выберите вариант ответа", "Ошибка", MessageBoxButtons::OK, MessageBoxIcon::Error);
+		MessageBox::Show("Г„Г«Гї ГЇГ°Г®Г¤Г®Г«Г¦ГҐГ­ГЁГї ГўГ»ГЎГҐГ°ГЁГІГҐ ГўГ Г°ГЁГ Г­ГІ Г®ГІГўГҐГІГ ", "ГЋГёГЁГЎГЄГ ", MessageBoxButtons::OK, MessageBoxIcon::Error);
 		return;
 	}
 	if (answer == 1) {
 		answers[9] = true;
-		MessageBox::Show("Вы ответили правильно!", "Результат",
+		MessageBox::Show("Г‚Г» Г®ГІГўГҐГІГЁГ«ГЁ ГЇГ°Г ГўГЁГ«ГјГ­Г®!", "ГђГҐГ§ГіГ«ГјГІГ ГІ",
 			MessageBoxButtons::OK, MessageBoxIcon::Information);
 	}
 	else {
 		answers[9] = false;
-		MessageBox::Show("Вы ответили неправильно", "Результат",
+		MessageBox::Show("Г‚Г» Г®ГІГўГҐГІГЁГ«ГЁ Г­ГҐГЇГ°Г ГўГЁГ«ГјГ­Г®", "ГђГҐГ§ГіГ«ГјГІГ ГІ",
 			MessageBoxButtons::OK, MessageBoxIcon::Information);
 	}
 
-	//Организация перехода на следующую форму
+	//ГЋГ°ГЈГ Г­ГЁГ§Г Г¶ГЁГї ГЇГҐГ°ГҐГµГ®Г¤Г  Г­Г  Г±Г«ГҐГ¤ГіГѕГ№ГіГѕ ГґГ®Г°Г¬Гі
 	ResultsForm^ q10 = gcnew ResultsForm();
 	q10->Owner = this->Owner;
 	q10->Show();
