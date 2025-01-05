@@ -15,7 +15,7 @@ namespace PhysicsTest {
 	using namespace MyDLLCLR;
 
 	/// <summary>
-	/// Сводка для OwnForm
+	/// Г‘ГўГ®Г¤ГЄГ  Г¤Г«Гї OwnForm
 	/// </summary>
 	public ref class OwnForm : public System::Windows::Forms::Form
 	{
@@ -24,13 +24,13 @@ namespace PhysicsTest {
 		{
 			InitializeComponent();
 			//
-			//TODO: добавьте код конструктора
+			//TODO: Г¤Г®ГЎГ ГўГјГІГҐ ГЄГ®Г¤ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г 
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// ГЋГ±ГўГ®ГЎГ®Г¤ГЁГІГј ГўГ±ГҐ ГЁГ±ГЇГ®Г«ГјГ§ГіГҐГ¬Г»ГҐ Г°ГҐГ±ГіГ°Г±Г».
 		/// </summary>
 		~OwnForm()
 		{
@@ -55,14 +55,14 @@ namespace PhysicsTest {
 
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// ГЋГЎГїГ§Г ГІГҐГ«ГјГ­Г Гї ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г Гї ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г .
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// Г’Г°ГҐГЎГіГҐГ¬Г»Г© Г¬ГҐГІГ®Г¤ Г¤Г«Гї ГЇГ®Г¤Г¤ГҐГ°Г¦ГЄГЁ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г  вЂ” Г­ГҐ ГЁГ§Г¬ГҐГ­ГїГ©ГІГҐ 
+		/// Г±Г®Г¤ГҐГ°Г¦ГЁГ¬Г®ГҐ ГЅГІГ®ГЈГ® Г¬ГҐГІГ®Г¤Г  Г± ГЇГ®Г¬Г®Г№ГјГѕ Г°ГҐГ¤Г ГЄГІГ®Г°Г  ГЄГ®Г¤Г .
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -86,7 +86,7 @@ namespace PhysicsTest {
 			this->cmd_statistics->Name = L"cmd_statistics";
 			this->cmd_statistics->Size = System::Drawing::Size(250, 37);
 			this->cmd_statistics->TabIndex = 30;
-			this->cmd_statistics->Text = L"Личная статистика";
+			this->cmd_statistics->Text = L"Г‹ГЁГ·Г­Г Гї Г±ГІГ ГІГЁГ±ГІГЁГЄГ ";
 			this->cmd_statistics->UseVisualStyleBackColor = true;
 			this->cmd_statistics->Click += gcnew System::EventHandler(this, &OwnForm::cmd_statistics_Click);
 			// 
@@ -100,7 +100,7 @@ namespace PhysicsTest {
 			this->cmd_theory->Name = L"cmd_theory";
 			this->cmd_theory->Size = System::Drawing::Size(250, 37);
 			this->cmd_theory->TabIndex = 29;
-			this->cmd_theory->Text = L"Теория";
+			this->cmd_theory->Text = L"Г’ГҐГ®Г°ГЁГї";
 			this->cmd_theory->UseVisualStyleBackColor = true;
 			this->cmd_theory->Click += gcnew System::EventHandler(this, &OwnForm::cmd_theory_Click);
 			// 
@@ -114,7 +114,7 @@ namespace PhysicsTest {
 			this->cmd_test->Name = L"cmd_test";
 			this->cmd_test->Size = System::Drawing::Size(250, 37);
 			this->cmd_test->TabIndex = 28;
-			this->cmd_test->Text = L"Начать тестирование";
+			this->cmd_test->Text = L"ГЌГ Г·Г ГІГј ГІГҐГ±ГІГЁГ°Г®ГўГ Г­ГЁГҐ";
 			this->cmd_test->UseVisualStyleBackColor = true;
 			this->cmd_test->Click += gcnew System::EventHandler(this, &OwnForm::cmd_test_Click);
 			// 
@@ -129,7 +129,7 @@ namespace PhysicsTest {
 			this->label7->Name = L"label7";
 			this->label7->Size = System::Drawing::Size(447, 72);
 			this->label7->TabIndex = 27;
-			this->label7->Text = L"Тест по теме «Физические основы \r\nнанотехнологий фотоники и оптоинформатики»\r\n\r\n";
+			this->label7->Text = L"Г’ГҐГ±ГІ ГЇГ® ГІГҐГ¬ГҐ В«Г”ГЁГ§ГЁГ·ГҐГ±ГЄГЁГҐ Г®Г±Г­Г®ГўГ» \r\nГ­Г Г­Г®ГІГҐГµГ­Г®Г«Г®ГЈГЁГ© ГґГ®ГІГ®Г­ГЁГЄГЁ ГЁ Г®ГЇГІГ®ГЁГ­ГґГ®Г°Г¬Г ГІГЁГЄГЁВ»\r\n\r\n";
 			this->label7->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
 			// 
 			// label1
@@ -143,7 +143,7 @@ namespace PhysicsTest {
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(374, 20);
 			this->label1->TabIndex = 21;
-			this->label1->Text = L"Выполнен вход в учетную запись полязователя";
+			this->label1->Text = L"Г‚Г»ГЇГ®Г«Г­ГҐГ­ ГўГµГ®Г¤ Гў ГіГ·ГҐГІГ­ГіГѕ Г§Г ГЇГЁГ±Гј ГЇГ®Г«ГїГ§Г®ГўГ ГІГҐГ«Гї";
 			// 
 			// labName
 			// 
@@ -166,7 +166,7 @@ namespace PhysicsTest {
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(188, 37);
 			this->button1->TabIndex = 32;
-			this->button1->Text = L"Выйти из аккаутнта";
+			this->button1->Text = L"Г‚Г»Г©ГІГЁ ГЁГ§ Г ГЄГЄГ ГіГІГ­ГІГ ";
 			this->button1->UseVisualStyleBackColor = true;
 			this->button1->Click += gcnew System::EventHandler(this, &OwnForm::button1_Click);
 			// 
@@ -182,7 +182,7 @@ namespace PhysicsTest {
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(632, 18);
 			this->label2->TabIndex = 33;
-			this->label2->Text = L"Перед прохождением тестирования рекомендуем ознакомиться с теорией";
+			this->label2->Text = L"ГЏГҐГ°ГҐГ¤ ГЇГ°Г®ГµГ®Г¦Г¤ГҐГ­ГЁГҐГ¬ ГІГҐГ±ГІГЁГ°Г®ГўГ Г­ГЁГї Г°ГҐГЄГ®Г¬ГҐГ­Г¤ГіГҐГ¬ Г®Г§Г­Г ГЄГ®Г¬ГЁГІГјГ±Гї Г± ГІГҐГ®Г°ГЁГҐГ©";
 			this->label2->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
 			// OwnForm
@@ -202,7 +202,7 @@ namespace PhysicsTest {
 			this->MinimumSize = System::Drawing::Size(972, 497);
 			this->Name = L"OwnForm";
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
-			this->Text = L"Тест по нанофизике - Личная страница";
+			this->Text = L"Г’ГҐГ±ГІ ГЇГ® Г­Г Г­Г®ГґГЁГ§ГЁГЄГҐ - Г‹ГЁГ·Г­Г Гї Г±ГІГ°Г Г­ГЁГ¶Г ";
 			this->Load += gcnew System::EventHandler(this, &OwnForm::OwnForm_Load);
 			this->ResumeLayout(false);
 			this->PerformLayout();
@@ -221,14 +221,14 @@ private: System::Void cmd_theory_Click(System::Object^ sender, System::EventArgs
 	System::Diagnostics::Process::Start("theory.pdf");
 }
 private: System::Void cmd_test_Click(System::Object^ sender, System::EventArgs^ e) {
-	//Организация перехода на следующую форму
+	//ГЋГ°ГЈГ Г­ГЁГ§Г Г¶ГЁГї ГЇГҐГ°ГҐГµГ®Г¤Г  Г­Г  Г±Г«ГҐГ¤ГіГѕГ№ГіГѕ ГґГ®Г°Г¬Гі
 	Question1Form^ q = gcnew Question1Form();
 	q->Owner = this;
 	q->Show();
 	this->Hide();
 }
 private: System::Void cmd_statistics_Click(System::Object^ sender, System::EventArgs^ e) {
-	//Организация перехода на следующую форму
+	//ГЋГ°ГЈГ Г­ГЁГ§Г Г¶ГЁГї ГЇГҐГ°ГҐГµГ®Г¤Г  Г­Г  Г±Г«ГҐГ¤ГіГѕГ№ГіГѕ ГґГ®Г°Г¬Гі
 	OwnStatisticsForm^ q1 = gcnew OwnStatisticsForm();
 	q1->Owner = this;
 	q1->Show();
