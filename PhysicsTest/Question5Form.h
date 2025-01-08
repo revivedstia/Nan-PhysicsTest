@@ -12,7 +12,7 @@ namespace PhysicsTest {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// Сводка для Question5Form
+	/// Г‘ГўГ®Г¤ГЄГ  Г¤Г«Гї Question5Form
 	/// </summary>
 	public ref class Question5Form : public System::Windows::Forms::Form
 	{
@@ -21,13 +21,13 @@ namespace PhysicsTest {
 		{
 			InitializeComponent();
 			//
-			//TODO: добавьте код конструктора
+			//TODO: Г¤Г®ГЎГ ГўГјГІГҐ ГЄГ®Г¤ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г 
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// ГЋГ±ГўГ®ГЎГ®Г¤ГЁГІГј ГўГ±ГҐ ГЁГ±ГЇГ®Г«ГјГ§ГіГҐГ¬Г»ГҐ Г°ГҐГ±ГіГ°Г±Г».
 		/// </summary>
 		~Question5Form()
 		{
@@ -56,14 +56,14 @@ namespace PhysicsTest {
 
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// ГЋГЎГїГ§Г ГІГҐГ«ГјГ­Г Гї ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г Гї ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г .
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// Г’Г°ГҐГЎГіГҐГ¬Г»Г© Г¬ГҐГІГ®Г¤ Г¤Г«Гї ГЇГ®Г¤Г¤ГҐГ°Г¦ГЄГЁ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г  вЂ” Г­ГҐ ГЁГ§Г¬ГҐГ­ГїГ©ГІГҐ 
+		/// Г±Г®Г¤ГҐГ°Г¦ГЁГ¬Г®ГҐ ГЅГІГ®ГЈГ® Г¬ГҐГІГ®Г¤Г  Г± ГЇГ®Г¬Г®Г№ГјГѕ Г°ГҐГ¤Г ГЄГІГ®Г°Г  ГЄГ®Г¤Г .
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -83,7 +83,7 @@ namespace PhysicsTest {
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(174, 38);
 			this->button1->TabIndex = 1;
-			this->button1->Text = L"Следующий вопрос";
+			this->button1->Text = L"Г‘Г«ГҐГ¤ГіГѕГ№ГЁГ© ГўГ®ГЇГ°Г®Г±";
 			this->button1->UseVisualStyleBackColor = true;
 			this->button1->Click += gcnew System::EventHandler(this, &Question5Form::button1_Click);
 			// 
@@ -97,8 +97,8 @@ namespace PhysicsTest {
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(790, 72);
 			this->label1->TabIndex = 2;
-			this->label1->Text = L"Вопрос №5\r\n\r\nКакое время переключения может иметь современное ПЗУ емкостью 1 Мбит"
-				L" имеют\?";
+			this->label1->Text = L"Г‚Г®ГЇГ°Г®Г± В№5\r\n\r\nГЉГ ГЄГ®ГҐ ГўГ°ГҐГ¬Гї ГЇГҐГ°ГҐГЄГ«ГѕГ·ГҐГ­ГЁГї Г¬Г®Г¦ГҐГІ ГЁГ¬ГҐГІГј Г±Г®ГўГ°ГҐГ¬ГҐГ­Г­Г®ГҐ ГЏГ‡Г“ ГҐГ¬ГЄГ®Г±ГІГјГѕ 1 ГЊГЎГЁГІ"
+				L" ГЁГ¬ГҐГѕГІ\?";
 			// 
 			// lb_otvet
 			// 
@@ -127,7 +127,7 @@ namespace PhysicsTest {
 			this->lb_o->Name = L"lb_o";
 			this->lb_o->Size = System::Drawing::Size(119, 23);
 			this->lb_o->TabIndex = 42;
-			this->lb_o->Text = L"Ваш ответ:";
+			this->lb_o->Text = L"Г‚Г Гё Г®ГІГўГҐГІ:";
 			this->lb_o->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
 			// sb
@@ -153,7 +153,7 @@ namespace PhysicsTest {
 			this->MinimumSize = System::Drawing::Size(972, 480);
 			this->Name = L"Question5Form";
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
-			this->Text = L"Тест по нанофизике - 5 вопрос";
+			this->Text = L"Г’ГҐГ±ГІ ГЇГ® Г­Г Г­Г®ГґГЁГ§ГЁГЄГҐ - 5 ГўГ®ГЇГ°Г®Г±";
 			this->Load += gcnew System::EventHandler(this, &Question5Form::Question5Form_Load);
 			this->ResumeLayout(false);
 			this->PerformLayout();
@@ -168,23 +168,23 @@ private: System::Void Question5Form_Load(System::Object^ sender, System::EventAr
 private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
 	if (80 <= sb->Value && sb->Value <= 150) {
 		answers[4] = true;
-		MessageBox::Show("Вы ответили правильно!", "Результат",
+		MessageBox::Show("Г‚Г» Г®ГІГўГҐГІГЁГ«ГЁ ГЇГ°Г ГўГЁГ«ГјГ­Г®!", "ГђГҐГ§ГіГ«ГјГІГ ГІ",
 			MessageBoxButtons::OK, MessageBoxIcon::Information);
 	}
 	else {
 		answers[4] = false;
-		MessageBox::Show("Вы ответили неправильно", "Результат",
+		MessageBox::Show("Г‚Г» Г®ГІГўГҐГІГЁГ«ГЁ Г­ГҐГЇГ°Г ГўГЁГ«ГјГ­Г®", "ГђГҐГ§ГіГ«ГјГІГ ГІ",
 			MessageBoxButtons::OK, MessageBoxIcon::Information);
 	}
 
-	//Организация перехода на следующую форму
+	//ГЋГ°ГЈГ Г­ГЁГ§Г Г¶ГЁГї ГЇГҐГ°ГҐГµГ®Г¤Г  Г­Г  Г±Г«ГҐГ¤ГіГѕГ№ГіГѕ ГґГ®Г°Г¬Гі
 	Question6Form^ q5 = gcnew Question6Form();
 	q5->Owner = this->Owner;
 	q5->Show();
 	this->Hide();
 }
 private: System::Void sb_ValueChanged(System::Object^ sender, System::EventArgs^ e) {
-	lb_otvet->Text = Convert::ToString(sb->Value) + "нс";
+	lb_otvet->Text = Convert::ToString(sb->Value) + "Г­Г±";
 }
 
 };
