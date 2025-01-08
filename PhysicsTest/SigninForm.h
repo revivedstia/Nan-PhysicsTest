@@ -14,7 +14,7 @@ namespace PhysicsTest {
 	using namespace MyDLLCLR;
 
 	/// <summary>
-	/// Сводка для SigninForm
+	/// Г‘ГўГ®Г¤ГЄГ  Г¤Г«Гї SigninForm
 	/// </summary>
 	public ref class SigninForm : public System::Windows::Forms::Form
 	{
@@ -23,13 +23,13 @@ namespace PhysicsTest {
 		{
 			InitializeComponent();
 			//
-			//TODO: добавьте код конструктора
+			//TODO: Г¤Г®ГЎГ ГўГјГІГҐ ГЄГ®Г¤ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г 
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// ГЋГ±ГўГ®ГЎГ®Г¤ГЁГІГј ГўГ±ГҐ ГЁГ±ГЇГ®Г«ГјГ§ГіГҐГ¬Г»ГҐ Г°ГҐГ±ГіГ°Г±Г».
 		/// </summary>
 		~SigninForm()
 		{
@@ -56,14 +56,14 @@ namespace PhysicsTest {
 
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// ГЋГЎГїГ§Г ГІГҐГ«ГјГ­Г Гї ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г Гї ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г .
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// Г’Г°ГҐГЎГіГҐГ¬Г»Г© Г¬ГҐГІГ®Г¤ Г¤Г«Гї ГЇГ®Г¤Г¤ГҐГ°Г¦ГЄГЁ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г  вЂ” Г­ГҐ ГЁГ§Г¬ГҐГ­ГїГ©ГІГҐ 
+		/// Г±Г®Г¤ГҐГ°Г¦ГЁГ¬Г®ГҐ ГЅГІГ®ГЈГ® Г¬ГҐГІГ®Г¤Г  Г± ГЇГ®Г¬Г®Г№ГјГѕ Г°ГҐГ¤Г ГЄГІГ®Г°Г  ГЄГ®Г¤Г .
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -91,7 +91,7 @@ namespace PhysicsTest {
 			this->label6->Name = L"label6";
 			this->label6->Size = System::Drawing::Size(46, 24);
 			this->label6->TabIndex = 35;
-			this->label6->Text = L"Имя";
+			this->label6->Text = L"Г€Г¬Гї";
 			// 
 			// label5
 			// 
@@ -102,7 +102,7 @@ namespace PhysicsTest {
 			this->label5->Name = L"label5";
 			this->label5->Size = System::Drawing::Size(178, 24);
 			this->label5->TabIndex = 33;
-			this->label5->Text = L"Повторите пароль";
+			this->label5->Text = L"ГЏГ®ГўГІГ®Г°ГЁГІГҐ ГЇГ Г°Г®Г«Гј";
 			// 
 			// txtPassword2
 			// 
@@ -124,7 +124,7 @@ namespace PhysicsTest {
 			this->cmd_to_login->Name = L"cmd_to_login";
 			this->cmd_to_login->Size = System::Drawing::Size(138, 28);
 			this->cmd_to_login->TabIndex = 31;
-			this->cmd_to_login->Text = L"Войти";
+			this->cmd_to_login->Text = L"Г‚Г®Г©ГІГЁ";
 			this->cmd_to_login->UseVisualStyleBackColor = true;
 			this->cmd_to_login->Click += gcnew System::EventHandler(this, &SigninForm::cmd_to_login_Click);
 			// 
@@ -137,7 +137,7 @@ namespace PhysicsTest {
 			this->label4->Name = L"label4";
 			this->label4->Size = System::Drawing::Size(231, 24);
 			this->label4->TabIndex = 30;
-			this->label4->Text = L"У меня уже есть аккаунт";
+			this->label4->Text = L"Г“ Г¬ГҐГ­Гї ГіГ¦ГҐ ГҐГ±ГІГј Г ГЄГЄГ ГіГ­ГІ";
 			// 
 			// cmd_signin
 			// 
@@ -147,7 +147,7 @@ namespace PhysicsTest {
 			this->cmd_signin->Name = L"cmd_signin";
 			this->cmd_signin->Size = System::Drawing::Size(373, 35);
 			this->cmd_signin->TabIndex = 29;
-			this->cmd_signin->Text = L"Зарегистрироваться";
+			this->cmd_signin->Text = L"Г‡Г Г°ГҐГЈГЁГ±ГІГ°ГЁГ°Г®ГўГ ГІГјГ±Гї";
 			this->cmd_signin->UseVisualStyleBackColor = true;
 			this->cmd_signin->Click += gcnew System::EventHandler(this, &SigninForm::cmd_signin_Click);
 			// 
@@ -172,7 +172,7 @@ namespace PhysicsTest {
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(76, 24);
 			this->label3->TabIndex = 27;
-			this->label3->Text = L"Пароль";
+			this->label3->Text = L"ГЏГ Г°Г®Г«Гј";
 			// 
 			// txtPassword
 			// 
@@ -194,7 +194,7 @@ namespace PhysicsTest {
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(64, 24);
 			this->label2->TabIndex = 25;
-			this->label2->Text = L"Логин";
+			this->label2->Text = L"Г‹Г®ГЈГЁГ­";
 			// 
 			// label1
 			// 
@@ -206,7 +206,7 @@ namespace PhysicsTest {
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(257, 24);
 			this->label1->TabIndex = 24;
-			this->label1->Text = L"Регистрация пользователя";
+			this->label1->Text = L"ГђГҐГЈГЁГ±ГІГ°Г Г¶ГЁГї ГЇГ®Г«ГјГ§Г®ГўГ ГІГҐГ«Гї";
 			// 
 			// txtLogin
 			// 
@@ -250,7 +250,7 @@ namespace PhysicsTest {
 			this->MinimumSize = System::Drawing::Size(701, 446);
 			this->Name = L"SigninForm";
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
-			this->Text = L"Тест по нанофизике - Регистрация пользователя";
+			this->Text = L"Г’ГҐГ±ГІ ГЇГ® Г­Г Г­Г®ГґГЁГ§ГЁГЄГҐ - ГђГҐГЈГЁГ±ГІГ°Г Г¶ГЁГї ГЇГ®Г«ГјГ§Г®ГўГ ГІГҐГ«Гї";
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
@@ -261,7 +261,7 @@ private: System::Void cmd_to_login_Click(System::Object^ sender, System::EventAr
 	this->Close();
 }
 
-// регистрация
+// Г°ГҐГЈГЁГ±ГІГ°Г Г¶ГЁГї
 private: System::Void cmd_signin_Click(System::Object^ sender, System::EventArgs^ e) {
 	String^ name = txtName->Text;
 	String^ login = txtLogin->Text;
@@ -269,43 +269,43 @@ private: System::Void cmd_signin_Click(System::Object^ sender, System::EventArgs
 	String^ pass2 = txtPassword2->Text;
 
 	if (name == "") {
-		MessageBox::Show("Поле \"Имя\" не зполнено", "Сообщение", MessageBoxButtons::OK, MessageBoxIcon::Information);
+		MessageBox::Show("ГЏГ®Г«ГҐ \"Г€Г¬Гї\" Г­ГҐ Г§ГЇГ®Г«Г­ГҐГ­Г®", "Г‘Г®Г®ГЎГ№ГҐГ­ГЁГҐ", MessageBoxButtons::OK, MessageBoxIcon::Information);
 		return;
 	}
 
 	if (login == "") {
-		MessageBox::Show("Поле \"Логин\" не зполнено", "Сообщение", MessageBoxButtons::OK, MessageBoxIcon::Information);
+		MessageBox::Show("ГЏГ®Г«ГҐ \"Г‹Г®ГЈГЁГ­\" Г­ГҐ Г§ГЇГ®Г«Г­ГҐГ­Г®", "Г‘Г®Г®ГЎГ№ГҐГ­ГЁГҐ", MessageBoxButtons::OK, MessageBoxIcon::Information);
 		return;
 	}
 
 	if (pass == "") {
-		MessageBox::Show("Поле \"Пароль\" не зполнено", "Сообщение", MessageBoxButtons::OK, MessageBoxIcon::Information);
+		MessageBox::Show("ГЏГ®Г«ГҐ \"ГЏГ Г°Г®Г«Гј\" Г­ГҐ Г§ГЇГ®Г«Г­ГҐГ­Г®", "Г‘Г®Г®ГЎГ№ГҐГ­ГЁГҐ", MessageBoxButtons::OK, MessageBoxIcon::Information);
 		return;
 	}
 
 	if (pass2 == "") {
-		MessageBox::Show("Поле \"Повторите пароль\" не зполнено", "Сообщение", MessageBoxButtons::OK, MessageBoxIcon::Information);
+		MessageBox::Show("ГЏГ®Г«ГҐ \"ГЏГ®ГўГІГ®Г°ГЁГІГҐ ГЇГ Г°Г®Г«Гј\" Г­ГҐ Г§ГЇГ®Г«Г­ГҐГ­Г®", "Г‘Г®Г®ГЎГ№ГҐГ­ГЁГҐ", MessageBoxButtons::OK, MessageBoxIcon::Information);
 		return;
 	}
 	if (pass != pass2) {
-		MessageBox::Show("Пароли не совпадают", "Сообщение", MessageBoxButtons::OK, MessageBoxIcon::Information);
+		MessageBox::Show("ГЏГ Г°Г®Г«ГЁ Г­ГҐ Г±Г®ГўГЇГ Г¤Г ГѕГІ", "Г‘Г®Г®ГЎГ№ГҐГ­ГЁГҐ", MessageBoxButtons::OK, MessageBoxIcon::Information);
 		return;
 	}
 	if (Class1::UserIndex("users.txt", login) != -1) {
-		MessageBox::Show("Пользователь с таким логином уже существует", "Сообщение", MessageBoxButtons::OK, MessageBoxIcon::Information);
+		MessageBox::Show("ГЏГ®Г«ГјГ§Г®ГўГ ГІГҐГ«Гј Г± ГІГ ГЄГЁГ¬ Г«Г®ГЈГЁГ­Г®Г¬ ГіГ¦ГҐ Г±ГіГ№ГҐГ±ГІГўГіГҐГІ", "Г‘Г®Г®ГЎГ№ГҐГ­ГЁГҐ", MessageBoxButtons::OK, MessageBoxIcon::Information);
 		return;
 	}
 	String^ ind = Convert::ToString(Class1::LastIndex("users.txt") + 1);
 	Class1::PrinInFile("users.txt", ind + ";" + login + ";" + name + ";" + pass + ";0");
-	MessageBox::Show("Пользователь успешно зарегистрирован", "",
+	MessageBox::Show("ГЏГ®Г«ГјГ§Г®ГўГ ГІГҐГ«Гј ГіГ±ГЇГҐГёГ­Г® Г§Г Г°ГҐГЈГЁГ±ГІГ°ГЁГ°Г®ГўГ Г­", "",
 		MessageBoxButtons::OK, MessageBoxIcon::Information);
 	Owner->Show();
 	this->Close();
 }
 	   
-	//Защита от дурака
+	//Г‡Г Г№ГЁГІГ  Г®ГІ Г¤ГіГ°Г ГЄГ 
 private: System::Void txtName_KeyPress(System::Object^ sender, System::Windows::Forms::KeyPressEventArgs^ e) {
-	e->Handled = true; // Запрет ввода
+	e->Handled = true; // Г‡Г ГЇГ°ГҐГІ ГўГўГ®Г¤Г 
 
 	if (Char::IsLetter(e->KeyChar))
 		e->Handled = false;
@@ -314,17 +314,17 @@ private: System::Void txtName_KeyPress(System::Object^ sender, System::Windows::
 		e->Handled = false;
 
 	if (e->KeyChar == (char)Keys::Space)
-		e->Handled = true; // Запрет ввода
+		e->Handled = true; // Г‡Г ГЇГ°ГҐГІ ГўГўГ®Г¤Г 
 }
 private: System::Void txtPassword_KeyPress(System::Object^ sender, System::Windows::Forms::KeyPressEventArgs^ e) {
 	e->Handled = false; 
 
 	if (e->KeyChar == (char)Keys::Space)
-		e->Handled = true; // Запрет ввода
+		e->Handled = true; // Г‡Г ГЇГ°ГҐГІ ГўГўГ®Г¤Г 
 
 }
 
-	//* на поля паролей
+	//* Г­Г  ГЇГ®Г«Гї ГЇГ Г°Г®Г«ГҐГ©
 private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
 	if (txtPassword->PasswordChar != '*')
 	{
