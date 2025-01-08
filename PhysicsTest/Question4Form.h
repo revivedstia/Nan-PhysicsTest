@@ -13,7 +13,7 @@ namespace PhysicsTest {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// Сводка для Question4Form
+	/// Г‘ГўГ®Г¤ГЄГ  Г¤Г«Гї Question4Form
 	/// </summary>
 	public ref class Question4Form : public System::Windows::Forms::Form
 	{
@@ -22,13 +22,13 @@ namespace PhysicsTest {
 		{
 			InitializeComponent();
 			//
-			//TODO: добавьте код конструктора
+			//TODO: Г¤Г®ГЎГ ГўГјГІГҐ ГЄГ®Г¤ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г 
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// ГЋГ±ГўГ®ГЎГ®Г¤ГЁГІГј ГўГ±ГҐ ГЁГ±ГЇГ®Г«ГјГ§ГіГҐГ¬Г»ГҐ Г°ГҐГ±ГіГ°Г±Г».
 		/// </summary>
 		~Question4Form()
 		{
@@ -55,14 +55,14 @@ namespace PhysicsTest {
 
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// ГЋГЎГїГ§Г ГІГҐГ«ГјГ­Г Гї ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г Гї ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г .
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// Г’Г°ГҐГЎГіГҐГ¬Г»Г© Г¬ГҐГІГ®Г¤ Г¤Г«Гї ГЇГ®Г¤Г¤ГҐГ°Г¦ГЄГЁ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г  вЂ” Г­ГҐ ГЁГ§Г¬ГҐГ­ГїГ©ГІГҐ 
+		/// Г±Г®Г¤ГҐГ°Г¦ГЁГ¬Г®ГҐ ГЅГІГ®ГЈГ® Г¬ГҐГІГ®Г¤Г  Г± ГЇГ®Г¬Г®Г№ГјГѕ Г°ГҐГ¤Г ГЄГІГ®Г°Г  ГЄГ®Г¤Г .
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -89,7 +89,7 @@ namespace PhysicsTest {
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(480, 24);
 			this->label1->TabIndex = 8;
-			this->label1->Text = L"Вопрос №4: Сопопоставьте понятия со значениями";
+			this->label1->Text = L"Г‚Г®ГЇГ°Г®Г± В№4: Г‘Г®ГЇГ®ГЇГ®Г±ГІГ ГўГјГІГҐ ГЇГ®Г­ГїГІГЁГї Г±Г® Г§Г­Г Г·ГҐГ­ГЁГїГ¬ГЁ";
 			// 
 			// cmdNext
 			// 
@@ -99,7 +99,7 @@ namespace PhysicsTest {
 			this->cmdNext->Name = L"cmdNext";
 			this->cmdNext->Size = System::Drawing::Size(174, 38);
 			this->cmdNext->TabIndex = 7;
-			this->cmdNext->Text = L"Следующий вопрос";
+			this->cmdNext->Text = L"Г‘Г«ГҐГ¤ГіГѕГ№ГЁГ© ГўГ®ГЇГ°Г®Г±";
 			this->cmdNext->UseVisualStyleBackColor = true;
 			this->cmdNext->Click += gcnew System::EventHandler(this, &Question4Form::cmdNext_Click);
 			// 
@@ -168,7 +168,7 @@ namespace PhysicsTest {
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(238, 24);
 			this->label2->TabIndex = 16;
-			this->label2->Text = L"Квантовая суперпозиция";
+			this->label2->Text = L"ГЉГўГ Г­ГІГ®ГўГ Гї Г±ГіГЇГҐГ°ГЇГ®Г§ГЁГ¶ГЁГї";
 			// 
 			// label3
 			// 
@@ -179,7 +179,7 @@ namespace PhysicsTest {
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(254, 24);
 			this->label3->TabIndex = 17;
-			this->label3->Text = L"Квантовая эффективность";
+			this->label3->Text = L"ГЉГўГ Г­ГІГ®ГўГ Гї ГЅГґГґГҐГЄГІГЁГўГ­Г®Г±ГІГј";
 			// 
 			// label4
 			// 
@@ -190,7 +190,7 @@ namespace PhysicsTest {
 			this->label4->Name = L"label4";
 			this->label4->Size = System::Drawing::Size(235, 24);
 			this->label4->TabIndex = 18;
-			this->label4->Text = L"Квантовая запутанность";
+			this->label4->Text = L"ГЉГўГ Г­ГІГ®ГўГ Гї Г§Г ГЇГіГІГ Г­Г­Г®Г±ГІГј";
 			// 
 			// button2
 			// 
@@ -237,7 +237,7 @@ namespace PhysicsTest {
 			this->MinimumSize = System::Drawing::Size(972, 497);
 			this->Name = L"Question4Form";
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
-			this->Text = L"Тест по нанофизике - 4 вопрос";
+			this->Text = L"Г’ГҐГ±ГІ ГЇГ® Г­Г Г­Г®ГґГЁГ§ГЁГЄГҐ - 4 ГўГ®ГЇГ°Г®Г±";
 			this->Load += gcnew System::EventHandler(this, &Question4Form::Question4Form_Load);
 			this->ResumeLayout(false);
 			this->PerformLayout();
@@ -247,34 +247,34 @@ namespace PhysicsTest {
 private: System::Void Question4Form_Load(System::Object^ sender, System::EventArgs^ e) {
 	array<System::Object^>^ ItemObject = gcnew
 		array<System::Object^>(3);
-	//Объявление массива
-	ItemObject[0] = ("Явление, при котором квантовые состояния двух или более объектов взаимозависимы.");
-	ItemObject[1] = ("Принцип: если для нек. квантовой системы допустимы 2 состояния, то допустима любая их линейная комбинация.");
-	ItemObject[2] = ("Спектральная характеристика солнечного фотоэлемента.");
+	//ГЋГЎГєГїГўГ«ГҐГ­ГЁГҐ Г¬Г Г±Г±ГЁГўГ 
+	ItemObject[0] = ("ГџГўГ«ГҐГ­ГЁГҐ, ГЇГ°ГЁ ГЄГ®ГІГ®Г°Г®Г¬ ГЄГўГ Г­ГІГ®ГўГ»ГҐ Г±Г®Г±ГІГ®ГїГ­ГЁГї Г¤ГўГіГµ ГЁГ«ГЁ ГЎГ®Г«ГҐГҐ Г®ГЎГєГҐГЄГІГ®Гў ГўГ§Г ГЁГ¬Г®Г§Г ГўГЁГ±ГЁГ¬Г».");
+	ItemObject[1] = ("ГЏГ°ГЁГ­Г¶ГЁГЇ: ГҐГ±Г«ГЁ Г¤Г«Гї Г­ГҐГЄ. ГЄГўГ Г­ГІГ®ГўГ®Г© Г±ГЁГ±ГІГҐГ¬Г» Г¤Г®ГЇГіГ±ГІГЁГ¬Г» 2 Г±Г®Г±ГІГ®ГїГ­ГЁГї, ГІГ® Г¤Г®ГЇГіГ±ГІГЁГ¬Г  Г«ГѕГЎГ Гї ГЁГµ Г«ГЁГ­ГҐГ©Г­Г Гї ГЄГ®Г¬ГЎГЁГ­Г Г¶ГЁГї.");
+	ItemObject[2] = ("Г‘ГЇГҐГЄГІГ°Г Г«ГјГ­Г Гї ГµГ Г°Г ГЄГІГҐГ°ГЁГ±ГІГЁГЄГ  Г±Г®Г«Г­ГҐГ·Г­Г®ГЈГ® ГґГ®ГІГ®ГЅГ«ГҐГ¬ГҐГ­ГІГ .");
 		for (int i = 0;i < 3; i++)
 			listBox1->Items->Add(ItemObject[i]);
 }
 private: System::Void cmdNext_Click(System::Object^ sender, System::EventArgs^ e) {
 	if ((listBox2->Items->Count == 0) || (listBox3 -> Items->Count == 0) || (listBox4->Items->Count == 0))
-		MessageBox::Show("Заполните все поля ответов", "Ошибка", MessageBoxButtons::OK,
+		MessageBox::Show("Г‡Г ГЇГ®Г«Г­ГЁГІГҐ ГўГ±ГҐ ГЇГ®Г«Гї Г®ГІГўГҐГІГ®Гў", "ГЋГёГЁГЎГЄГ ", MessageBoxButtons::OK,
 			MessageBoxIcon::Asterisk);
 	else
 	{
-		if ((listBox2->Items[0] == "Принцип: если для нек. квантовой системы допустимы 2 состояния, то допустима любая их линейная комбинация.") &&
-			(listBox3->Items[0] == "Спектральная характеристика солнечного фотоэлемента.") &&
-			(listBox4->Items[0] == "Явление, при котором квантовые состояния двух или более объектов взаимозависимы.")) {
+		if ((listBox2->Items[0] == "ГЏГ°ГЁГ­Г¶ГЁГЇ: ГҐГ±Г«ГЁ Г¤Г«Гї Г­ГҐГЄ. ГЄГўГ Г­ГІГ®ГўГ®Г© Г±ГЁГ±ГІГҐГ¬Г» Г¤Г®ГЇГіГ±ГІГЁГ¬Г» 2 Г±Г®Г±ГІГ®ГїГ­ГЁГї, ГІГ® Г¤Г®ГЇГіГ±ГІГЁГ¬Г  Г«ГѕГЎГ Гї ГЁГµ Г«ГЁГ­ГҐГ©Г­Г Гї ГЄГ®Г¬ГЎГЁГ­Г Г¶ГЁГї.") &&
+			(listBox3->Items[0] == "Г‘ГЇГҐГЄГІГ°Г Г«ГјГ­Г Гї ГµГ Г°Г ГЄГІГҐГ°ГЁГ±ГІГЁГЄГ  Г±Г®Г«Г­ГҐГ·Г­Г®ГЈГ® ГґГ®ГІГ®ГЅГ«ГҐГ¬ГҐГ­ГІГ .") &&
+			(listBox4->Items[0] == "ГџГўГ«ГҐГ­ГЁГҐ, ГЇГ°ГЁ ГЄГ®ГІГ®Г°Г®Г¬ ГЄГўГ Г­ГІГ®ГўГ»ГҐ Г±Г®Г±ГІГ®ГїГ­ГЁГї Г¤ГўГіГµ ГЁГ«ГЁ ГЎГ®Г«ГҐГҐ Г®ГЎГєГҐГЄГІГ®Гў ГўГ§Г ГЁГ¬Г®Г§Г ГўГЁГ±ГЁГ¬Г».")) {
 			answers[4] = true;
-			MessageBox::Show("Вы ответили правильно!", "Результат",
+			MessageBox::Show("Г‚Г» Г®ГІГўГҐГІГЁГ«ГЁ ГЇГ°Г ГўГЁГ«ГјГ­Г®!", "ГђГҐГ§ГіГ«ГјГІГ ГІ",
 				MessageBoxButtons::OK, MessageBoxIcon::Information);
 		}
 			
 		else {
 			answers[4] = false;
-			MessageBox::Show("Вы ответили неправильно", "Результат",
+			MessageBox::Show("Г‚Г» Г®ГІГўГҐГІГЁГ«ГЁ Г­ГҐГЇГ°Г ГўГЁГ«ГјГ­Г®", "ГђГҐГ§ГіГ«ГјГІГ ГІ",
 				MessageBoxButtons::OK, MessageBoxIcon::Information);
 		}
 		
-		//Организация перехода на следующую форму
+		//ГЋГ°ГЈГ Г­ГЁГ§Г Г¶ГЁГї ГЇГҐГ°ГҐГµГ®Г¤Г  Г­Г  Г±Г«ГҐГ¤ГіГѕГ№ГіГѕ ГґГ®Г°Г¬Гі
 		Question5Form^ q4 = gcnew Question5Form();
 		q4->Owner = this->Owner;
 		q4->Show();
@@ -282,7 +282,7 @@ private: System::Void cmdNext_Click(System::Object^ sender, System::EventArgs^ e
 	}
 }
 
-//выбор ответа
+//ГўГ»ГЎГ®Г° Г®ГІГўГҐГІГ 
 private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e) {
 	if (listBox1->SelectedIndex == 0 && listBox2->Text == "") {
 		listBox2->Items->Add(Convert::ToString(listBox1 -> SelectedItem));
