@@ -13,7 +13,7 @@ namespace PhysicsTest {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// Сводка для Question1Form
+	/// Г‘ГўГ®Г¤ГЄГ  Г¤Г«Гї Question1Form
 	/// </summary>
 	public ref class Question1Form : public System::Windows::Forms::Form
 	{
@@ -22,13 +22,13 @@ namespace PhysicsTest {
 		{
 			InitializeComponent();
 			//
-			//TODO: добавьте код конструктора
+			//TODO: Г¤Г®ГЎГ ГўГјГІГҐ ГЄГ®Г¤ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г 
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// ГЋГ±ГўГ®ГЎГ®Г¤ГЁГІГј ГўГ±ГҐ ГЁГ±ГЇГ®Г«ГјГ§ГіГҐГ¬Г»ГҐ Г°ГҐГ±ГіГ°Г±Г».
 		/// </summary>
 		~Question1Form()
 		{
@@ -46,14 +46,14 @@ namespace PhysicsTest {
 
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// ГЋГЎГїГ§Г ГІГҐГ«ГјГ­Г Гї ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г Гї ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г .
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// Г’Г°ГҐГЎГіГҐГ¬Г»Г© Г¬ГҐГІГ®Г¤ Г¤Г«Гї ГЇГ®Г¤Г¤ГҐГ°Г¦ГЄГЁ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г  вЂ” Г­ГҐ ГЁГ§Г¬ГҐГ­ГїГ©ГІГҐ 
+		/// Г±Г®Г¤ГҐГ°Г¦ГЁГ¬Г®ГҐ ГЅГІГ®ГЈГ® Г¬ГҐГІГ®Г¤Г  Г± ГЇГ®Г¬Г®Г№ГјГѕ Г°ГҐГ¤Г ГЄГІГ®Г°Г  ГЄГ®Г¤Г .
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -71,7 +71,7 @@ namespace PhysicsTest {
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(174, 38);
 			this->button1->TabIndex = 0;
-			this->button1->Text = L"Следующий вопрос";
+			this->button1->Text = L"Г‘Г«ГҐГ¤ГіГѕГ№ГЁГ© ГўГ®ГЇГ°Г®Г±";
 			this->button1->UseVisualStyleBackColor = true;
 			this->button1->Click += gcnew System::EventHandler(this, &Question1Form::button1_Click);
 			// 
@@ -85,9 +85,9 @@ namespace PhysicsTest {
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(697, 120);
 			this->label1->TabIndex = 1;
-			this->label1->Text = L"Вопрос №1\r\n\r\nКак называется структура с периодически изменяющейся диэлектрической"
-				L"\r\nпроницаемостью либо неоднородностью, период которой сравним \r\nс длиной волны с"
-				L"вета\?";
+			this->label1->Text = L"Г‚Г®ГЇГ°Г®Г± В№1\r\n\r\nГЉГ ГЄ Г­Г Г§Г»ГўГ ГҐГІГ±Гї Г±ГІГ°ГіГЄГІГіГ°Г  Г± ГЇГҐГ°ГЁГ®Г¤ГЁГ·ГҐГ±ГЄГЁ ГЁГ§Г¬ГҐГ­ГїГѕГ№ГҐГ©Г±Гї Г¤ГЁГЅГ«ГҐГЄГІГ°ГЁГ·ГҐГ±ГЄГ®Г©"
+				L"\r\nГЇГ°Г®Г­ГЁГ¶Г ГҐГ¬Г®Г±ГІГјГѕ Г«ГЁГЎГ® Г­ГҐГ®Г¤Г­Г®Г°Г®Г¤Г­Г®Г±ГІГјГѕ, ГЇГҐГ°ГЁГ®Г¤ ГЄГ®ГІГ®Г°Г®Г© Г±Г°Г ГўГ­ГЁГ¬ \r\nГ± Г¤Г«ГЁГ­Г®Г© ГўГ®Г«Г­Г» Г±"
+				L"ГўГҐГІГ \?";
 			// 
 			// txtAns
 			// 
@@ -111,7 +111,7 @@ namespace PhysicsTest {
 			this->MinimumSize = System::Drawing::Size(972, 497);
 			this->Name = L"Question1Form";
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
-			this->Text = L"Тест по нанофизике - 1 вопрос";
+			this->Text = L"Г’ГҐГ±ГІ ГЇГ® Г­Г Г­Г®ГґГЁГ§ГЁГЄГҐ - 1 ГўГ®ГЇГ°Г®Г±";
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
@@ -119,23 +119,23 @@ namespace PhysicsTest {
 #pragma endregion
 	private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
 		if (txtAns->Text == "")
-			MessageBox::Show("Введите ответ в текстовое поле", "Ошибка",
+			MessageBox::Show("Г‚ГўГҐГ¤ГЁГІГҐ Г®ГІГўГҐГІ Гў ГІГҐГЄГ±ГІГ®ГўГ®ГҐ ГЇГ®Г«ГҐ", "ГЋГёГЁГЎГЄГ ",
 				MessageBoxButtons::OK, MessageBoxIcon::Asterisk);
 		else
 		{
-			if (txtAns->Text == "Фотонный кристалл" || txtAns->Text == "фотонный кристалл") {
+			if (txtAns->Text == "Г”Г®ГІГ®Г­Г­Г»Г© ГЄГ°ГЁГ±ГІГ Г«Г«" || txtAns->Text == "ГґГ®ГІГ®Г­Г­Г»Г© ГЄГ°ГЁГ±ГІГ Г«Г«") {
 				answers[0] = true;
-				MessageBox::Show("Вы ответили правильно!", "Результат",
+				MessageBox::Show("Г‚Г» Г®ГІГўГҐГІГЁГ«ГЁ ГЇГ°Г ГўГЁГ«ГјГ­Г®!", "ГђГҐГ§ГіГ«ГјГІГ ГІ",
 					MessageBoxButtons::OK, MessageBoxIcon::Information);
 			}
 				
 			else {
 				answers[0] = false;
-				MessageBox::Show("Вы ответили неправильно", "Результат", 
+				MessageBox::Show("Г‚Г» Г®ГІГўГҐГІГЁГ«ГЁ Г­ГҐГЇГ°Г ГўГЁГ«ГјГ­Г®", "ГђГҐГ§ГіГ«ГјГІГ ГІ", 
 					MessageBoxButtons::OK, MessageBoxIcon::Information);
 			}
 
-			//Организация перехода на следующую форму
+			//ГЋГ°ГЈГ Г­ГЁГ§Г Г¶ГЁГї ГЇГҐГ°ГҐГµГ®Г¤Г  Г­Г  Г±Г«ГҐГ¤ГіГѕГ№ГіГѕ ГґГ®Г°Г¬Гі
 			Question2Form^ q1 = gcnew Question2Form();
 			//Question10Form^ q1 = gcnew Question10Form();
 			q1->Owner = this->Owner;
