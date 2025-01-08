@@ -12,7 +12,7 @@ namespace PhysicsTest {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// Сводка для Question2Form
+	/// Г‘ГўГ®Г¤ГЄГ  Г¤Г«Гї Question2Form
 	/// </summary>
 	public ref class Question2Form : public System::Windows::Forms::Form
 	{
@@ -21,13 +21,13 @@ namespace PhysicsTest {
 		{
 			InitializeComponent();
 			//
-			//TODO: добавьте код конструктора
+			//TODO: Г¤Г®ГЎГ ГўГјГІГҐ ГЄГ®Г¤ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г 
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// ГЋГ±ГўГ®ГЎГ®Г¤ГЁГІГј ГўГ±ГҐ ГЁГ±ГЇГ®Г«ГјГ§ГіГҐГ¬Г»ГҐ Г°ГҐГ±ГіГ°Г±Г».
 		/// </summary>
 		~Question2Form()
 		{
@@ -61,14 +61,14 @@ namespace PhysicsTest {
 
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// ГЋГЎГїГ§Г ГІГҐГ«ГјГ­Г Гї ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г Гї ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г .
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// Г’Г°ГҐГЎГіГҐГ¬Г»Г© Г¬ГҐГІГ®Г¤ Г¤Г«Гї ГЇГ®Г¤Г¤ГҐГ°Г¦ГЄГЁ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г  вЂ” Г­ГҐ ГЁГ§Г¬ГҐГ­ГїГ©ГІГҐ 
+		/// Г±Г®Г¤ГҐГ°Г¦ГЁГ¬Г®ГҐ ГЅГІГ®ГЈГ® Г¬ГҐГІГ®Г¤Г  Г± ГЇГ®Г¬Г®Г№ГјГѕ Г°ГҐГ¤Г ГЄГІГ®Г°Г  ГЄГ®Г¤Г .
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -92,7 +92,7 @@ namespace PhysicsTest {
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(376, 72);
 			this->label1->TabIndex = 4;
-			this->label1->Text = L"Вопрос №2\r\n\r\nНазовите примеры фотонного фрактала\r\n";
+			this->label1->Text = L"Г‚Г®ГЇГ°Г®Г± В№2\r\n\r\nГЌГ Г§Г®ГўГЁГІГҐ ГЇГ°ГЁГ¬ГҐГ°Г» ГґГ®ГІГ®Г­Г­Г®ГЈГ® ГґГ°Г ГЄГІГ Г«Г \r\n";
 			// 
 			// cmdNext
 			// 
@@ -103,7 +103,7 @@ namespace PhysicsTest {
 			this->cmdNext->Name = L"cmdNext";
 			this->cmdNext->Size = System::Drawing::Size(174, 38);
 			this->cmdNext->TabIndex = 3;
-			this->cmdNext->Text = L"Следующий вопрос";
+			this->cmdNext->Text = L"Г‘Г«ГҐГ¤ГіГѕГ№ГЁГ© ГўГ®ГЇГ°Г®Г±";
 			this->cmdNext->UseVisualStyleBackColor = true;
 			this->cmdNext->Click += gcnew System::EventHandler(this, &Question2Form::cmdNext_Click);
 			// 
@@ -116,7 +116,7 @@ namespace PhysicsTest {
 			this->checkBox1->Name = L"checkBox1";
 			this->checkBox1->Size = System::Drawing::Size(205, 28);
 			this->checkBox1->TabIndex = 7;
-			this->checkBox1->Text = L"Раковина Шиллинга";
+			this->checkBox1->Text = L"ГђГ ГЄГ®ГўГЁГ­Г  ГГЁГ«Г«ГЁГ­ГЈГ ";
 			this->checkBox1->UseVisualStyleBackColor = true;
 			// 
 			// groupBox1
@@ -134,7 +134,7 @@ namespace PhysicsTest {
 			this->groupBox1->Size = System::Drawing::Size(675, 145);
 			this->groupBox1->TabIndex = 8;
 			this->groupBox1->TabStop = false;
-			this->groupBox1->Text = L"Вы можете выбрать несколько ответов";
+			this->groupBox1->Text = L"Г‚Г» Г¬Г®Г¦ГҐГІГҐ ГўГ»ГЎГ°Г ГІГј Г­ГҐГ±ГЄГ®Г«ГјГЄГ® Г®ГІГўГҐГІГ®Гў";
 			// 
 			// checkBox3
 			// 
@@ -145,7 +145,7 @@ namespace PhysicsTest {
 			this->checkBox3->Name = L"checkBox3";
 			this->checkBox3->Size = System::Drawing::Size(208, 28);
 			this->checkBox3->TabIndex = 10;
-			this->checkBox3->Text = L"Ковер Серпинского";
+			this->checkBox3->Text = L"ГЉГ®ГўГҐГ° Г‘ГҐГ°ГЇГЁГ­Г±ГЄГ®ГЈГ®";
 			this->checkBox3->UseVisualStyleBackColor = true;
 			// 
 			// checkBox2
@@ -157,7 +157,7 @@ namespace PhysicsTest {
 			this->checkBox2->Name = L"checkBox2";
 			this->checkBox2->Size = System::Drawing::Size(217, 28);
 			this->checkBox2->TabIndex = 9;
-			this->checkBox2->Text = L"Снежинка Фейнмана";
+			this->checkBox2->Text = L"Г‘Г­ГҐГ¦ГЁГ­ГЄГ  Г”ГҐГ©Г­Г¬Г Г­Г ";
 			this->checkBox2->UseVisualStyleBackColor = true;
 			// 
 			// checkBox4
@@ -169,7 +169,7 @@ namespace PhysicsTest {
 			this->checkBox4->Name = L"checkBox4";
 			this->checkBox4->Size = System::Drawing::Size(163, 28);
 			this->checkBox4->TabIndex = 8;
-			this->checkBox4->Text = L"Губка Менгера";
+			this->checkBox4->Text = L"ГѓГіГЎГЄГ  ГЊГҐГ­ГЈГҐГ°Г ";
 			this->checkBox4->UseVisualStyleBackColor = true;
 			// 
 			// Question2Form
@@ -184,7 +184,7 @@ namespace PhysicsTest {
 			this->MinimumSize = System::Drawing::Size(972, 497);
 			this->Name = L"Question2Form";
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
-			this->Text = L"Тест по нанофизике - 2 вопрос";
+			this->Text = L"Г’ГҐГ±ГІ ГЇГ® Г­Г Г­Г®ГґГЁГ§ГЁГЄГҐ - 2 ГўГ®ГЇГ°Г®Г±";
 			this->groupBox1->ResumeLayout(false);
 			this->groupBox1->PerformLayout();
 			this->ResumeLayout(false);
@@ -195,23 +195,23 @@ namespace PhysicsTest {
 	private: System::Void cmdNext_Click(System::Object^ sender, System::EventArgs^ e) {
 		if ((!checkBox1->Checked) && (!checkBox2->Checked) && (!checkBox3->Checked) &&
 			(!checkBox4->Checked))
-			MessageBox::Show("Выберите хотя бы один вариант ответа", "Ошибка",
+			MessageBox::Show("Г‚Г»ГЎГҐГ°ГЁГІГҐ ГµГ®ГІГї ГЎГ» Г®Г¤ГЁГ­ ГўГ Г°ГЁГ Г­ГІ Г®ГІГўГҐГІГ ", "ГЋГёГЁГЎГЄГ ",
 				MessageBoxButtons::OK, MessageBoxIcon::Information);
 		else {
-			if ((checkBox1->Checked) && (!checkBox2->Checked) && // правильные ответы 134 
+			if ((checkBox1->Checked) && (!checkBox2->Checked) && // ГЇГ°Г ГўГЁГ«ГјГ­Г»ГҐ Г®ГІГўГҐГІГ» 134 
 				(checkBox3->Checked) && (checkBox4->Checked)) {
 				answers[2] = true;
-				MessageBox::Show("Вы ответили правильно!", "Результат",
+				MessageBox::Show("Г‚Г» Г®ГІГўГҐГІГЁГ«ГЁ ГЇГ°Г ГўГЁГ«ГјГ­Г®!", "ГђГҐГ§ГіГ«ГјГІГ ГІ",
 					MessageBoxButtons::OK, MessageBoxIcon::Information);
 			}
 				
 			else {
 				answers[2] = false;
-				MessageBox::Show("Вы ответили неправильно", "Результат",
+				MessageBox::Show("Г‚Г» Г®ГІГўГҐГІГЁГ«ГЁ Г­ГҐГЇГ°Г ГўГЁГ«ГјГ­Г®", "ГђГҐГ§ГіГ«ГјГІГ ГІ",
 					MessageBoxButtons::OK, MessageBoxIcon::Information);
 			}
 
-			//Организация перехода на следующую форму
+			//ГЋГ°ГЈГ Г­ГЁГ§Г Г¶ГЁГї ГЇГҐГ°ГҐГµГ®Г¤Г  Г­Г  Г±Г«ГҐГ¤ГіГѕГ№ГіГѕ ГґГ®Г°Г¬Гі
 			Question3Form^ q2 = gcnew Question3Form();
 			q2->Owner = this->Owner;
 			q2->Show();
