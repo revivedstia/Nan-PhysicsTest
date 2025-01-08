@@ -14,7 +14,7 @@ namespace PhysicsTest {
 	using namespace MyDLLCLR;
 
 	/// <summary>
-	/// Сводка для ResultsForm
+	/// Г‘ГўГ®Г¤ГЄГ  Г¤Г«Гї ResultsForm
 	/// </summary>
 	public ref class ResultsForm : public System::Windows::Forms::Form
 	{
@@ -23,13 +23,13 @@ namespace PhysicsTest {
 		{
 			InitializeComponent();
 			//
-			//TODO: добавьте код конструктора
+			//TODO: Г¤Г®ГЎГ ГўГјГІГҐ ГЄГ®Г¤ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г 
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// ГЋГ±ГўГ®ГЎГ®Г¤ГЁГІГј ГўГ±ГҐ ГЁГ±ГЇГ®Г«ГјГ§ГіГҐГ¬Г»ГҐ Г°ГҐГ±ГіГ°Г±Г».
 		/// </summary>
 		~ResultsForm()
 		{
@@ -58,14 +58,14 @@ namespace PhysicsTest {
 
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// ГЋГЎГїГ§Г ГІГҐГ«ГјГ­Г Гї ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г Гї ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г .
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// Г’Г°ГҐГЎГіГҐГ¬Г»Г© Г¬ГҐГІГ®Г¤ Г¤Г«Гї ГЇГ®Г¤Г¤ГҐГ°Г¦ГЄГЁ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г  вЂ” Г­ГҐ ГЁГ§Г¬ГҐГ­ГїГ©ГІГҐ 
+		/// Г±Г®Г¤ГҐГ°Г¦ГЁГ¬Г®ГҐ ГЅГІГ®ГЈГ® Г¬ГҐГІГ®Г¤Г  Г± ГЇГ®Г¬Г®Г№ГјГѕ Г°ГҐГ¤Г ГЄГІГ®Г°Г  ГЄГ®Г¤Г .
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -132,7 +132,7 @@ namespace PhysicsTest {
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(248, 24);
 			this->label1->TabIndex = 3;
-			this->label1->Text = L"Результаты тестирования";
+			this->label1->Text = L"ГђГҐГ§ГіГ«ГјГІГ ГІГ» ГІГҐГ±ГІГЁГ°Г®ГўГ Г­ГЁГї";
 			// 
 			// label2
 			// 
@@ -142,7 +142,7 @@ namespace PhysicsTest {
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(211, 24);
 			this->label2->TabIndex = 4;
-			this->label2->Text = L"Вы ответили верно на";
+			this->label2->Text = L"Г‚Г» Г®ГІГўГҐГІГЁГ«ГЁ ГўГҐГ°Г­Г® Г­Г ";
 			// 
 			// label3
 			// 
@@ -152,7 +152,7 @@ namespace PhysicsTest {
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(148, 24);
 			this->label3->TabIndex = 5;
-			this->label3->Text = L"вопросов из 10";
+			this->label3->Text = L"ГўГ®ГЇГ°Г®Г±Г®Гў ГЁГ§ 10";
 			// 
 			// label4
 			// 
@@ -162,7 +162,7 @@ namespace PhysicsTest {
 			this->label4->Name = L"label4";
 			this->label4->Size = System::Drawing::Size(135, 24);
 			this->label4->TabIndex = 6;
-			this->label4->Text = L"Ваша оценка -";
+			this->label4->Text = L"Г‚Г ГёГ  Г®Г¶ГҐГ­ГЄГ  -";
 			// 
 			// grade
 			// 
@@ -193,7 +193,7 @@ namespace PhysicsTest {
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(174, 38);
 			this->button1->TabIndex = 9;
-			this->button1->Text = L"Далее";
+			this->button1->Text = L"Г„Г Г«ГҐГҐ";
 			this->button1->UseVisualStyleBackColor = true;
 			this->button1->Click += gcnew System::EventHandler(this, &ResultsForm::button1_Click);
 			// 
@@ -214,7 +214,7 @@ namespace PhysicsTest {
 			this->MinimumSize = System::Drawing::Size(972, 497);
 			this->Name = L"ResultsForm";
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
-			this->Text = L"Тест по нанофизике - Результаты тестирования";
+			this->Text = L"Г’ГҐГ±ГІ ГЇГ® Г­Г Г­Г®ГґГЁГ§ГЁГЄГҐ - ГђГҐГ§ГіГ«ГјГІГ ГІГ» ГІГҐГ±ГІГЁГ°Г®ГўГ Г­ГЁГї";
 			this->Load += gcnew System::EventHandler(this, &ResultsForm::ResultsForm_Load);
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->chart1))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView1))->EndInit();
@@ -226,31 +226,31 @@ namespace PhysicsTest {
 private: System::Void ResultsForm_Load(System::Object^ sender, System::EventArgs^ e) {
 	dataGridView1->ColumnCount = 2;
 	dataGridView1->RowCount = 11;
-	dataGridView1->Rows[0]->Cells[0]->Value = "№ вопроса";
-	dataGridView1->Rows[0]->Cells[1]->Value = "Вы ответили";
+	dataGridView1->Rows[0]->Cells[0]->Value = "В№ ГўГ®ГЇГ°Г®Г±Г ";
+	dataGridView1->Rows[0]->Cells[1]->Value = "Г‚Г» Г®ГІГўГҐГІГЁГ«ГЁ";
 
 	int count = 0;
 	for (int i = 0; i < 10; i++) {
-		dataGridView1->Rows[i+1]->Cells[0]->Value = "№" + Convert::ToString(i + 1);
+		dataGridView1->Rows[i+1]->Cells[0]->Value = "В№" + Convert::ToString(i + 1);
 		if (answers[i] == true) {
-			dataGridView1->Rows[i+1]->Cells[1]->Value = "Верно";
+			dataGridView1->Rows[i+1]->Cells[1]->Value = "Г‚ГҐГ°Г­Г®";
 			count++;
 		}
 		else
-			dataGridView1->Rows[i+1]->Cells[1]->Value = "Неверно";
+			dataGridView1->Rows[i+1]->Cells[1]->Value = "ГЌГҐГўГҐГ°Г­Г®";
 
 	}
 	right->Text = Convert::ToString(count);
 	grade->Text = Convert::ToString(Class1::Grade(count));
 
-	chart1->Series["0"]->Points->AddXY("Верно", count);
-	chart1->Series["0"]->Points->AddXY("Неверно", 10 -count);
+	chart1->Series["0"]->Points->AddXY("Г‚ГҐГ°Г­Г®", count);
+	chart1->Series["0"]->Points->AddXY("ГЌГҐГўГҐГ°Г­Г®", 10 -count);
 
 	String^ UserLogin = Class1::UserLogin("users.txt", user_index);
 	Class1::writeResuts("users.txt", UserLogin, count);
 }
 private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
-	//Организация перехода на следующую форму
+	//ГЋГ°ГЈГ Г­ГЁГ§Г Г¶ГЁГї ГЇГҐГ°ГҐГµГ®Г¤Г  Г­Г  Г±Г«ГҐГ¤ГіГѕГ№ГіГѕ ГґГ®Г°Г¬Гі
 	//ResultsForm^ q = gcnew ResultsForm();
 	Owner->Show();
 	this->Close();
