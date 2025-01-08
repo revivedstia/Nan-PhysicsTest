@@ -12,7 +12,7 @@ namespace PhysicsTest {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// Сводка для Question7Form
+	/// Г‘ГўГ®Г¤ГЄГ  Г¤Г«Гї Question7Form
 	/// </summary>
 	public ref class Question7Form : public System::Windows::Forms::Form
 	{
@@ -21,13 +21,13 @@ namespace PhysicsTest {
 		{
 			InitializeComponent();
 			//
-			//TODO: добавьте код конструктора
+			//TODO: Г¤Г®ГЎГ ГўГјГІГҐ ГЄГ®Г¤ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г 
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// ГЋГ±ГўГ®ГЎГ®Г¤ГЁГІГј ГўГ±ГҐ ГЁГ±ГЇГ®Г«ГјГ§ГіГҐГ¬Г»ГҐ Г°ГҐГ±ГіГ°Г±Г».
 		/// </summary>
 		~Question7Form()
 		{
@@ -49,14 +49,14 @@ namespace PhysicsTest {
 
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// ГЋГЎГїГ§Г ГІГҐГ«ГјГ­Г Гї ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г Гї ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г .
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// Г’Г°ГҐГЎГіГҐГ¬Г»Г© Г¬ГҐГІГ®Г¤ Г¤Г«Гї ГЇГ®Г¤Г¤ГҐГ°Г¦ГЄГЁ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г  вЂ” Г­ГҐ ГЁГ§Г¬ГҐГ­ГїГ©ГІГҐ 
+		/// Г±Г®Г¤ГҐГ°Г¦ГЁГ¬Г®ГҐ ГЅГІГ®ГЈГ® Г¬ГҐГІГ®Г¤Г  Г± ГЇГ®Г¬Г®Г№ГјГѕ Г°ГҐГ¤Г ГЄГІГ®Г°Г  ГЄГ®Г¤Г .
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -82,7 +82,7 @@ namespace PhysicsTest {
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(174, 38);
 			this->button1->TabIndex = 1;
-			this->button1->Text = L"Следующий вопрос";
+			this->button1->Text = L"Г‘Г«ГҐГ¤ГіГѕГ№ГЁГ© ГўГ®ГЇГ°Г®Г±";
 			this->button1->UseVisualStyleBackColor = true;
 			this->button1->Click += gcnew System::EventHandler(this, &Question7Form::button1_Click);
 			// 
@@ -124,7 +124,7 @@ namespace PhysicsTest {
 			this->lb_o->Name = L"lb_o";
 			this->lb_o->Size = System::Drawing::Size(119, 23);
 			this->lb_o->TabIndex = 41;
-			this->lb_o->Text = L"Ваш ответ:";
+			this->lb_o->Text = L"Г‚Г Гё Г®ГІГўГҐГІ:";
 			this->lb_o->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
 			// label2
@@ -139,7 +139,7 @@ namespace PhysicsTest {
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(100, 23);
 			this->label2->TabIndex = 40;
-			this->label2->Text = L"Вопрос 7";
+			this->label2->Text = L"Г‚Г®ГЇГ°Г®Г± 7";
 			this->label2->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
 			// pictureBox1
@@ -160,8 +160,8 @@ namespace PhysicsTest {
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(243, 85);
 			this->label1->TabIndex = 45;
-			this->label1->Text = L"Легенда:\r\nа – излучатель; б – фотоприемник; \r\nв – микроэлектронный блок;\r\nг – отр"
-				L"ажатель; \r\nд – управляемая оптическая среда.";
+			this->label1->Text = L"Г‹ГҐГЈГҐГ­Г¤Г :\r\nГ  вЂ“ ГЁГ§Г«ГіГ·Г ГІГҐГ«Гј; ГЎ вЂ“ ГґГ®ГІГ®ГЇГ°ГЁГҐГ¬Г­ГЁГЄ; \r\nГў вЂ“ Г¬ГЁГЄГ°Г®ГЅГ«ГҐГЄГІГ°Г®Г­Г­Г»Г© ГЎГ«Г®ГЄ;\r\nГЈ вЂ“ Г®ГІГ°"
+				L"Г Г¦Г ГІГҐГ«Гј; \r\nГ¤ вЂ“ ГіГЇГ°Г ГўГ«ГїГҐГ¬Г Гї Г®ГЇГІГЁГ·ГҐГ±ГЄГ Гї Г±Г°ГҐГ¤Г .";
 			// 
 			// label3
 			// 
@@ -171,7 +171,7 @@ namespace PhysicsTest {
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(263, 72);
 			this->label3->TabIndex = 46;
-			this->label3->Text = L"На какой схеме изображен \r\nоптрон с открытым \r\nоптическим каналом связи\?\r\n";
+			this->label3->Text = L"ГЌГ  ГЄГ ГЄГ®Г© Г±ГµГҐГ¬ГҐ ГЁГ§Г®ГЎГ°Г Г¦ГҐГ­ \r\nГ®ГЇГІГ°Г®Г­ Г± Г®ГІГЄГ°Г»ГІГ»Г¬ \r\nГ®ГЇГІГЁГ·ГҐГ±ГЄГЁГ¬ ГЄГ Г­Г Г«Г®Г¬ Г±ГўГїГ§ГЁ\?\r\n";
 			// 
 			// Question7Form
 			// 
@@ -190,7 +190,7 @@ namespace PhysicsTest {
 			this->MinimumSize = System::Drawing::Size(972, 480);
 			this->Name = L"Question7Form";
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
-			this->Text = L"Тест по нанофизике - 7 вопрос";
+			this->Text = L"Г’ГҐГ±ГІ ГЇГ® Г­Г Г­Г®ГґГЁГ§ГЁГЄГҐ - 7 ГўГ®ГЇГ°Г®Г±";
 			this->Load += gcnew System::EventHandler(this, &Question7Form::Question7Form_Load);
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->trackBar1))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
@@ -203,21 +203,21 @@ private: System::Void Question7Form_Load(System::Object^ sender, System::EventAr
 	trackBar1->Minimum = 1;
 	trackBar1->Maximum = 5;
 	trackBar1->Value = 3;
-	this->pictureBox1->ImageLocation = "оптрон.jpg";
+	this->pictureBox1->ImageLocation = "Г®ГЇГІГ°Г®Г­.jpg";
 }
 private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
 	if (trackBar1->Value == 4) {
 		answers[6] = true;
-		MessageBox::Show("Вы ответили правильно!", "Результат",
+		MessageBox::Show("Г‚Г» Г®ГІГўГҐГІГЁГ«ГЁ ГЇГ°Г ГўГЁГ«ГјГ­Г®!", "ГђГҐГ§ГіГ«ГјГІГ ГІ",
 			MessageBoxButtons::OK, MessageBoxIcon::Information);
 	}
 	else {
 		answers[6] = false;
-		MessageBox::Show("Вы ответили неправильно", "Результат",
+		MessageBox::Show("Г‚Г» Г®ГІГўГҐГІГЁГ«ГЁ Г­ГҐГЇГ°Г ГўГЁГ«ГјГ­Г®", "ГђГҐГ§ГіГ«ГјГІГ ГІ",
 			MessageBoxButtons::OK, MessageBoxIcon::Information);
 	}
 
-	//Организация перехода на следующую форму
+	//ГЋГ°ГЈГ Г­ГЁГ§Г Г¶ГЁГї ГЇГҐГ°ГҐГµГ®Г¤Г  Г­Г  Г±Г«ГҐГ¤ГіГѕГ№ГіГѕ ГґГ®Г°Г¬Гі
 	Question8Form^ q7 = gcnew Question8Form();
 	q7->Owner = this->Owner;
 	q7->Show();
