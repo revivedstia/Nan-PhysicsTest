@@ -12,7 +12,7 @@ namespace PhysicsTest {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// Сводка для Question6Form
+	/// Г‘ГўГ®Г¤ГЄГ  Г¤Г«Гї Question6Form
 	/// </summary>
 	public ref class Question6Form : public System::Windows::Forms::Form
 	{
@@ -21,13 +21,13 @@ namespace PhysicsTest {
 		{
 			InitializeComponent();
 			//
-			//TODO: добавьте код конструктора
+			//TODO: Г¤Г®ГЎГ ГўГјГІГҐ ГЄГ®Г¤ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г 
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// ГЋГ±ГўГ®ГЎГ®Г¤ГЁГІГј ГўГ±ГҐ ГЁГ±ГЇГ®Г«ГјГ§ГіГҐГ¬Г»ГҐ Г°ГҐГ±ГіГ°Г±Г».
 		/// </summary>
 		~Question6Form()
 		{
@@ -50,14 +50,14 @@ namespace PhysicsTest {
 
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// ГЋГЎГїГ§Г ГІГҐГ«ГјГ­Г Гї ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г Гї ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г .
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// Г’Г°ГҐГЎГіГҐГ¬Г»Г© Г¬ГҐГІГ®Г¤ Г¤Г«Гї ГЇГ®Г¤Г¤ГҐГ°Г¦ГЄГЁ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г  вЂ” Г­ГҐ ГЁГ§Г¬ГҐГ­ГїГ©ГІГҐ 
+		/// Г±Г®Г¤ГҐГ°Г¦ГЁГ¬Г®ГҐ ГЅГІГ®ГЈГ® Г¬ГҐГІГ®Г¤Г  Г± ГЇГ®Г¬Г®Г№ГјГѕ Г°ГҐГ¤Г ГЄГІГ®Г°Г  ГЄГ®Г¤Г .
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -79,7 +79,7 @@ namespace PhysicsTest {
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(174, 38);
 			this->button1->TabIndex = 1;
-			this->button1->Text = L"Следующий вопрос";
+			this->button1->Text = L"Г‘Г«ГҐГ¤ГіГѕГ№ГЁГ© ГўГ®ГЇГ°Г®Г±";
 			this->button1->UseVisualStyleBackColor = true;
 			this->button1->Click += gcnew System::EventHandler(this, &Question6Form::button1_Click);
 			// 
@@ -95,7 +95,7 @@ namespace PhysicsTest {
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(219, 69);
 			this->label2->TabIndex = 35;
-			this->label2->Text = L"Вопрос 6\r\n\r\nЗаполните пропуски.";
+			this->label2->Text = L"Г‚Г®ГЇГ°Г®Г± 6\r\n\r\nГ‡Г ГЇГ®Г«Г­ГЁГІГҐ ГЇГ°Г®ГЇГіГ±ГЄГЁ.";
 			this->label2->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
 			// cb1
@@ -103,7 +103,7 @@ namespace PhysicsTest {
 			this->cb1->Font = (gcnew System::Drawing::Font(L"Verdana", 13.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
 			this->cb1->FormattingEnabled = true;
-			this->cb1->Items->AddRange(gcnew cli::array< System::Object^  >(4) { L"1 нм", L"3 нм", L"8 нм", L"16 нм" });
+			this->cb1->Items->AddRange(gcnew cli::array< System::Object^  >(4) { L"1 Г­Г¬", L"3 Г­Г¬", L"8 Г­Г¬", L"16 Г­Г¬" });
 			this->cb1->Location = System::Drawing::Point(495, 212);
 			this->cb1->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->cb1->Name = L"cb1";
@@ -119,14 +119,14 @@ namespace PhysicsTest {
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(438, 24);
 			this->label1->TabIndex = 37;
-			this->label1->Text = L"И каждая такая наноточка может хранить один";
+			this->label1->Text = L"Г€ ГЄГ Г¦Г¤Г Гї ГІГ ГЄГ Гї Г­Г Г­Г®ГІГ®Г·ГЄГ  Г¬Г®Г¦ГҐГІ ГµГ°Г Г­ГЁГІГј Г®Г¤ГЁГ­";
 			// 
 			// cb2
 			// 
 			this->cb2->Font = (gcnew System::Drawing::Font(L"Verdana", 13.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
 			this->cb2->FormattingEnabled = true;
-			this->cb2->Items->AddRange(gcnew cli::array< System::Object^  >(3) { L"бит", L"байт", L"килобит" });
+			this->cb2->Items->AddRange(gcnew cli::array< System::Object^  >(3) { L"ГЎГЁГІ", L"ГЎГ Г©ГІ", L"ГЄГЁГ«Г®ГЎГЁГІ" });
 			this->cb2->Location = System::Drawing::Point(579, 251);
 			this->cb2->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->cb2->Name = L"cb2";
@@ -142,7 +142,7 @@ namespace PhysicsTest {
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(129, 24);
 			this->label3->TabIndex = 39;
-			this->label3->Text = L"информации.";
+			this->label3->Text = L"ГЁГ­ГґГ®Г°Г¬Г Г¶ГЁГЁ.";
 			// 
 			// label4
 			// 
@@ -153,9 +153,9 @@ namespace PhysicsTest {
 			this->label4->Name = L"label4";
 			this->label4->Size = System::Drawing::Size(683, 72);
 			this->label4->TabIndex = 40;
-			this->label4->Text = L"Новая память на основе кремниевых наноточек. Новая память состоит\r\nиз слоя диэлек"
-				L"трического материала с включенными в него дискретными\r\nкремниевым наноточками, д"
-				L"иаметром \r\n";
+			this->label4->Text = L"ГЌГ®ГўГ Гї ГЇГ Г¬ГїГІГј Г­Г  Г®Г±Г­Г®ГўГҐ ГЄГ°ГҐГ¬Г­ГЁГҐГўГ»Гµ Г­Г Г­Г®ГІГ®Г·ГҐГЄ. ГЌГ®ГўГ Гї ГЇГ Г¬ГїГІГј Г±Г®Г±ГІГ®ГЁГІ\r\nГЁГ§ Г±Г«Г®Гї Г¤ГЁГЅГ«ГҐГЄ"
+				L"ГІГ°ГЁГ·ГҐГ±ГЄГ®ГЈГ® Г¬Г ГІГҐГ°ГЁГ Г«Г  Г± ГўГЄГ«ГѕГ·ГҐГ­Г­Г»Г¬ГЁ Гў Г­ГҐГЈГ® Г¤ГЁГ±ГЄГ°ГҐГІГ­Г»Г¬ГЁ\r\nГЄГ°ГҐГ¬Г­ГЁГҐГўГ»Г¬ Г­Г Г­Г®ГІГ®Г·ГЄГ Г¬ГЁ, Г¤"
+				L"ГЁГ Г¬ГҐГІГ°Г®Г¬ \r\n";
 			// 
 			// Question6Form
 			// 
@@ -172,7 +172,7 @@ namespace PhysicsTest {
 			this->MinimumSize = System::Drawing::Size(972, 480);
 			this->Name = L"Question6Form";
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
-			this->Text = L"Тест по нанофизике - 6 вопрос";
+			this->Text = L"Г’ГҐГ±ГІ ГЇГ® Г­Г Г­Г®ГґГЁГ§ГЁГЄГҐ - 6 ГўГ®ГЇГ°Г®Г±";
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
@@ -180,23 +180,23 @@ namespace PhysicsTest {
 #pragma endregion
 private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
 	if (cb1->SelectedIndex == -1 || cb2->SelectedIndex == -1) {
-		MessageBox::Show("Для продолжения выберите вариант ответа", "Ошибка", MessageBoxButtons::OK, MessageBoxIcon::Error);
+		MessageBox::Show("Г„Г«Гї ГЇГ°Г®Г¤Г®Г«Г¦ГҐГ­ГЁГї ГўГ»ГЎГҐГ°ГЁГІГҐ ГўГ Г°ГЁГ Г­ГІ Г®ГІГўГҐГІГ ", "ГЋГёГЁГЎГЄГ ", MessageBoxButtons::OK, MessageBoxIcon::Error);
 		return;
 	}
 	
 	if (cb1->SelectedIndex == 1 && cb2->SelectedIndex == 0) {
 		answers[5] = true;
-		MessageBox::Show("Вы ответили правильно!", "Результат",
+		MessageBox::Show("Г‚Г» Г®ГІГўГҐГІГЁГ«ГЁ ГЇГ°Г ГўГЁГ«ГјГ­Г®!", "ГђГҐГ§ГіГ«ГјГІГ ГІ",
 			MessageBoxButtons::OK, MessageBoxIcon::Information);
 	}
 	else {
 		answers[5] = false;
-		MessageBox::Show("Вы ответили неправильно", "Результат",
+		MessageBox::Show("Г‚Г» Г®ГІГўГҐГІГЁГ«ГЁ Г­ГҐГЇГ°Г ГўГЁГ«ГјГ­Г®", "ГђГҐГ§ГіГ«ГјГІГ ГІ",
 			MessageBoxButtons::OK, MessageBoxIcon::Information);
 	}
 
 
-	//Организация перехода на следующую форму
+	//ГЋГ°ГЈГ Г­ГЁГ§Г Г¶ГЁГї ГЇГҐГ°ГҐГµГ®Г¤Г  Г­Г  Г±Г«ГҐГ¤ГіГѕГ№ГіГѕ ГґГ®Г°Г¬Гі
 	Question7Form^ q6 = gcnew Question7Form();
 	q6->Owner = this->Owner;
 	q6->Show();
