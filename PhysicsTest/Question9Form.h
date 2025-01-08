@@ -12,7 +12,7 @@ namespace PhysicsTest {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// Сводка для Question9Form
+	/// Г‘ГўГ®Г¤ГЄГ  Г¤Г«Гї Question9Form
 	/// </summary>
 	public ref class Question9Form : public System::Windows::Forms::Form
 	{
@@ -21,13 +21,13 @@ namespace PhysicsTest {
 		{
 			InitializeComponent();
 			//
-			//TODO: добавьте код конструктора
+			//TODO: Г¤Г®ГЎГ ГўГјГІГҐ ГЄГ®Г¤ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г 
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// ГЋГ±ГўГ®ГЎГ®Г¤ГЁГІГј ГўГ±ГҐ ГЁГ±ГЇГ®Г«ГјГ§ГіГҐГ¬Г»ГҐ Г°ГҐГ±ГіГ°Г±Г».
 		/// </summary>
 		~Question9Form()
 		{
@@ -44,14 +44,14 @@ namespace PhysicsTest {
 
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// ГЋГЎГїГ§Г ГІГҐГ«ГјГ­Г Гї ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г Гї ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г .
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// Г’Г°ГҐГЎГіГҐГ¬Г»Г© Г¬ГҐГІГ®Г¤ Г¤Г«Гї ГЇГ®Г¤Г¤ГҐГ°Г¦ГЄГЁ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г  вЂ” Г­ГҐ ГЁГ§Г¬ГҐГ­ГїГ©ГІГҐ 
+		/// Г±Г®Г¤ГҐГ°Г¦ГЁГ¬Г®ГҐ ГЅГІГ®ГЈГ® Г¬ГҐГІГ®Г¤Г  Г± ГЇГ®Г¬Г®Г№ГјГѕ Г°ГҐГ¤Г ГЄГІГ®Г°Г  ГЄГ®Г¤Г .
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -72,7 +72,7 @@ namespace PhysicsTest {
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(174, 38);
 			this->button1->TabIndex = 1;
-			this->button1->Text = L"Следующий вопрос";
+			this->button1->Text = L"Г‘Г«ГҐГ¤ГіГѕГ№ГЁГ© ГўГ®ГЇГ°Г®Г±";
 			this->button1->UseVisualStyleBackColor = true;
 			this->button1->Click += gcnew System::EventHandler(this, &Question9Form::button1_Click);
 			// 
@@ -93,8 +93,8 @@ namespace PhysicsTest {
 				static_cast<System::Byte>(204)));
 			this->cb->FormattingEnabled = true;
 			this->cb->Items->AddRange(gcnew cli::array< System::Object^  >(5) {
-				L"Электрооптический", L"Фазовый электрооптический", L"Амплитудный ",
-					L"Интегрально-оптический ", L"Магнитооптический"
+				L"ГќГ«ГҐГЄГІГ°Г®Г®ГЇГІГЁГ·ГҐГ±ГЄГЁГ©", L"Г”Г Г§Г®ГўГ»Г© ГЅГ«ГҐГЄГІГ°Г®Г®ГЇГІГЁГ·ГҐГ±ГЄГЁГ©", L"ГЂГ¬ГЇГ«ГЁГІГіГ¤Г­Г»Г© ",
+					L"Г€Г­ГІГҐГЈГ°Г Г«ГјГ­Г®-Г®ГЇГІГЁГ·ГҐГ±ГЄГЁГ© ", L"ГЊГ ГЈГ­ГЁГІГ®Г®ГЇГІГЁГ·ГҐГ±ГЄГЁГ©"
 			});
 			this->cb->Location = System::Drawing::Point(70, 211);
 			this->cb->Margin = System::Windows::Forms::Padding(2);
@@ -114,7 +114,7 @@ namespace PhysicsTest {
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(271, 92);
 			this->label2->TabIndex = 38;
-			this->label2->Text = L"Вопрос 9\r\n\r\nКакой тип модулятора \r\nпредставленн на рисунке\?";
+			this->label2->Text = L"Г‚Г®ГЇГ°Г®Г± 9\r\n\r\nГЉГ ГЄГ®Г© ГІГЁГЇ Г¬Г®Г¤ГіГ«ГїГІГ®Г°Г  \r\nГЇГ°ГҐГ¤Г±ГІГ ГўГ«ГҐГ­Г­ Г­Г  Г°ГЁГ±ГіГ­ГЄГҐ\?";
 			this->label2->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
 			// Question9Form
@@ -129,7 +129,7 @@ namespace PhysicsTest {
 			this->MinimumSize = System::Drawing::Size(972, 497);
 			this->Name = L"Question9Form";
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
-			this->Text = L"Тест по нанофизике - 9 вопрос";
+			this->Text = L"Г’ГҐГ±ГІ ГЇГ® Г­Г Г­Г®ГґГЁГ§ГЁГЄГҐ - 9 ГўГ®ГЇГ°Г®Г±";
 			this->Load += gcnew System::EventHandler(this, &Question9Form::Question9Form_Load);
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
 			this->ResumeLayout(false);
@@ -139,28 +139,28 @@ namespace PhysicsTest {
 #pragma endregion
 private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
 	if (cb->SelectedIndex == -1) {
-		MessageBox::Show("Для продолжения выберите вариант ответа", "Ошибка", MessageBoxButtons::OK, MessageBoxIcon::Error);
+		MessageBox::Show("Г„Г«Гї ГЇГ°Г®Г¤Г®Г«Г¦ГҐГ­ГЁГї ГўГ»ГЎГҐГ°ГЁГІГҐ ГўГ Г°ГЁГ Г­ГІ Г®ГІГўГҐГІГ ", "ГЋГёГЁГЎГЄГ ", MessageBoxButtons::OK, MessageBoxIcon::Error);
 		return;
 	}
 	if (cb->SelectedIndex == 4) {
 		answers[8] = true;
-		MessageBox::Show("Вы ответили правильно!", "Результат",
+		MessageBox::Show("Г‚Г» Г®ГІГўГҐГІГЁГ«ГЁ ГЇГ°Г ГўГЁГ«ГјГ­Г®!", "ГђГҐГ§ГіГ«ГјГІГ ГІ",
 			MessageBoxButtons::OK, MessageBoxIcon::Information);
 	}
 	else {
 		answers[8] = false;
-		MessageBox::Show("Вы ответили неправильно", "Результат",
+		MessageBox::Show("Г‚Г» Г®ГІГўГҐГІГЁГ«ГЁ Г­ГҐГЇГ°Г ГўГЁГ«ГјГ­Г®", "ГђГҐГ§ГіГ«ГјГІГ ГІ",
 			MessageBoxButtons::OK, MessageBoxIcon::Information);
 	}
 
-	//Организация перехода на следующую форму
+	//ГЋГ°ГЈГ Г­ГЁГ§Г Г¶ГЁГї ГЇГҐГ°ГҐГµГ®Г¤Г  Г­Г  Г±Г«ГҐГ¤ГіГѕГ№ГіГѕ ГґГ®Г°Г¬Гі
 	Question10Form^ q9 = gcnew Question10Form();
 	q9->Owner = this->Owner;
 	q9->Show();
 	this->Hide();
 }
 private: System::Void Question9Form_Load(System::Object^ sender, System::EventArgs^ e) {
-	this->pictureBox1->ImageLocation = "модулятор.jpg";
+	this->pictureBox1->ImageLocation = "Г¬Г®Г¤ГіГ«ГїГІГ®Г°.jpg";
 
 }
 };
