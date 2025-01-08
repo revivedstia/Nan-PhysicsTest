@@ -12,7 +12,7 @@ namespace PhysicsTest {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// Сводка для Question3Form
+	/// Г‘ГўГ®Г¤ГЄГ  Г¤Г«Гї Question3Form
 	/// </summary>
 	public ref class Question3Form : public System::Windows::Forms::Form
 	{
@@ -21,13 +21,13 @@ namespace PhysicsTest {
 		{
 			InitializeComponent();
 			//
-			//TODO: добавьте код конструктора
+			//TODO: Г¤Г®ГЎГ ГўГјГІГҐ ГЄГ®Г¤ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г 
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// ГЋГ±ГўГ®ГЎГ®Г¤ГЁГІГј ГўГ±ГҐ ГЁГ±ГЇГ®Г«ГјГ§ГіГҐГ¬Г»ГҐ Г°ГҐГ±ГіГ°Г±Г».
 		/// </summary>
 		~Question3Form()
 		{
@@ -50,14 +50,14 @@ namespace PhysicsTest {
 
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// ГЋГЎГїГ§Г ГІГҐГ«ГјГ­Г Гї ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г Гї ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г .
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// Г’Г°ГҐГЎГіГҐГ¬Г»Г© Г¬ГҐГІГ®Г¤ Г¤Г«Гї ГЇГ®Г¤Г¤ГҐГ°Г¦ГЄГЁ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г  вЂ” Г­ГҐ ГЁГ§Г¬ГҐГ­ГїГ©ГІГҐ 
+		/// Г±Г®Г¤ГҐГ°Г¦ГЁГ¬Г®ГҐ ГЅГІГ®ГЈГ® Г¬ГҐГІГ®Г¤Г  Г± ГЇГ®Г¬Г®Г№ГјГѕ Г°ГҐГ¤Г ГЄГІГ®Г°Г  ГЄГ®Г¤Г .
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -82,8 +82,8 @@ namespace PhysicsTest {
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(499, 72);
 			this->label1->TabIndex = 8;
-			this->label1->Text = L"Вопрос №3:\r\nКакой из видов лазера излучает свет в направлении, \r\nперпендикулярном"
-				L" поверхности кристалла\?";
+			this->label1->Text = L"Г‚Г®ГЇГ°Г®Г± В№3:\r\nГЉГ ГЄГ®Г© ГЁГ§ ГўГЁГ¤Г®Гў Г«Г Г§ГҐГ°Г  ГЁГ§Г«ГіГ·Г ГҐГІ Г±ГўГҐГІ Гў Г­Г ГЇГ°Г ГўГ«ГҐГ­ГЁГЁ, \r\nГЇГҐГ°ГЇГҐГ­Г¤ГЁГЄГіГ«ГїГ°Г­Г®Г¬"
+				L" ГЇГ®ГўГҐГ°ГµГ­Г®Г±ГІГЁ ГЄГ°ГЁГ±ГІГ Г«Г«Г \?";
 			// 
 			// cmdNext
 			// 
@@ -94,7 +94,7 @@ namespace PhysicsTest {
 			this->cmdNext->Name = L"cmdNext";
 			this->cmdNext->Size = System::Drawing::Size(174, 38);
 			this->cmdNext->TabIndex = 7;
-			this->cmdNext->Text = L"Следующий вопрос";
+			this->cmdNext->Text = L"Г‘Г«ГҐГ¤ГіГѕГ№ГЁГ© ГўГ®ГЇГ°Г®Г±";
 			this->cmdNext->UseVisualStyleBackColor = true;
 			this->cmdNext->Click += gcnew System::EventHandler(this, &Question3Form::cmdNext_Click);
 			// 
@@ -107,7 +107,7 @@ namespace PhysicsTest {
 			this->radioButton1->Size = System::Drawing::Size(270, 28);
 			this->radioButton1->TabIndex = 11;
 			this->radioButton1->TabStop = true;
-			this->radioButton1->Text = L"Лазеры на квантовых ямах";
+			this->radioButton1->Text = L"Г‹Г Г§ГҐГ°Г» Г­Г  ГЄГўГ Г­ГІГ®ГўГ»Гµ ГїГ¬Г Гµ";
 			this->radioButton1->UseVisualStyleBackColor = true;
 			// 
 			// groupBox1
@@ -126,7 +126,7 @@ namespace PhysicsTest {
 			this->groupBox1->Size = System::Drawing::Size(578, 210);
 			this->groupBox1->TabIndex = 12;
 			this->groupBox1->TabStop = false;
-			this->groupBox1->Text = L"Выберите правильный ответ";
+			this->groupBox1->Text = L"Г‚Г»ГЎГҐГ°ГЁГІГҐ ГЇГ°Г ГўГЁГ«ГјГ­Г»Г© Г®ГІГўГҐГІ";
 			// 
 			// radioButton5
 			// 
@@ -137,7 +137,7 @@ namespace PhysicsTest {
 			this->radioButton5->Size = System::Drawing::Size(196, 28);
 			this->radioButton5->TabIndex = 15;
 			this->radioButton5->TabStop = true;
-			this->radioButton5->Text = L"Случайные лазеры";
+			this->radioButton5->Text = L"Г‘Г«ГіГ·Г Г©Г­Г»ГҐ Г«Г Г§ГҐГ°Г»";
 			this->radioButton5->UseVisualStyleBackColor = true;
 			// 
 			// radioButton4
@@ -149,7 +149,7 @@ namespace PhysicsTest {
 			this->radioButton4->Size = System::Drawing::Size(520, 28);
 			this->radioButton4->TabIndex = 14;
 			this->radioButton4->TabStop = true;
-			this->radioButton4->Text = L"Полупроводниковые вертикально излучающие лазеры";
+			this->radioButton4->Text = L"ГЏГ®Г«ГіГЇГ°Г®ГўГ®Г¤Г­ГЁГЄГ®ГўГ»ГҐ ГўГҐГ°ГІГЁГЄГ Г«ГјГ­Г® ГЁГ§Г«ГіГ·Г ГѕГ№ГЁГҐ Г«Г Г§ГҐГ°Г»";
 			this->radioButton4->UseVisualStyleBackColor = true;
 			// 
 			// radioButton3
@@ -161,7 +161,7 @@ namespace PhysicsTest {
 			this->radioButton3->Size = System::Drawing::Size(544, 28);
 			this->radioButton3->TabIndex = 13;
 			this->radioButton3->TabStop = true;
-			this->radioButton3->Text = L"Фотонно-кристаллические лазеры с микрорезонаторами";
+			this->radioButton3->Text = L"Г”Г®ГІГ®Г­Г­Г®-ГЄГ°ГЁГ±ГІГ Г«Г«ГЁГ·ГҐГ±ГЄГЁГҐ Г«Г Г§ГҐГ°Г» Г± Г¬ГЁГЄГ°Г®Г°ГҐГ§Г®Г­Г ГІГ®Г°Г Г¬ГЁ";
 			this->radioButton3->UseVisualStyleBackColor = true;
 			// 
 			// radioButton2
@@ -173,7 +173,7 @@ namespace PhysicsTest {
 			this->radioButton2->Size = System::Drawing::Size(287, 28);
 			this->radioButton2->TabIndex = 12;
 			this->radioButton2->TabStop = true;
-			this->radioButton2->Text = L"Лазеры на квантовых точках";
+			this->radioButton2->Text = L"Г‹Г Г§ГҐГ°Г» Г­Г  ГЄГўГ Г­ГІГ®ГўГ»Гµ ГІГ®Г·ГЄГ Гµ";
 			this->radioButton2->UseVisualStyleBackColor = true;
 			// 
 			// Question3Form
@@ -188,7 +188,7 @@ namespace PhysicsTest {
 			this->MinimumSize = System::Drawing::Size(972, 497);
 			this->Name = L"Question3Form";
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
-			this->Text = L"Тест по нанофизике - 3 вопрос";
+			this->Text = L"Г’ГҐГ±ГІ ГЇГ® Г­Г Г­Г®ГґГЁГ§ГЁГЄГҐ - 3 ГўГ®ГЇГ°Г®Г±";
 			this->groupBox1->ResumeLayout(false);
 			this->groupBox1->PerformLayout();
 			this->ResumeLayout(false);
@@ -200,23 +200,23 @@ namespace PhysicsTest {
 		if ((!radioButton1->Checked) && (!radioButton2 -> Checked) && 
 			(!radioButton3->Checked) && (!radioButton4-> Checked) &&
 			(!radioButton5->Checked))
-			MessageBox::Show("Выберите ответ","Тест", MessageBoxButtons::OK,
+			MessageBox::Show("Г‚Г»ГЎГҐГ°ГЁГІГҐ Г®ГІГўГҐГІ","Г’ГҐГ±ГІ", MessageBoxButtons::OK,
 				MessageBoxIcon::Information);
 		else
 		{
 			if (radioButton1->Checked) {
 				answers[3] = true;
-				MessageBox::Show("Вы ответили правильно!", "Результат",
+				MessageBox::Show("Г‚Г» Г®ГІГўГҐГІГЁГ«ГЁ ГЇГ°Г ГўГЁГ«ГјГ­Г®!", "ГђГҐГ§ГіГ«ГјГІГ ГІ",
 					MessageBoxButtons::OK, MessageBoxIcon::Information);
 			}
 				
 			else {
 				answers[3] = false;
-				MessageBox::Show("Вы ответили неправильно", "Результат",
+				MessageBox::Show("Г‚Г» Г®ГІГўГҐГІГЁГ«ГЁ Г­ГҐГЇГ°Г ГўГЁГ«ГјГ­Г®", "ГђГҐГ§ГіГ«ГјГІГ ГІ",
 					MessageBoxButtons::OK, MessageBoxIcon::Information);
 			}
 			
-			//Организация перехода на следующую форму
+			//ГЋГ°ГЈГ Г­ГЁГ§Г Г¶ГЁГї ГЇГҐГ°ГҐГµГ®Г¤Г  Г­Г  Г±Г«ГҐГ¤ГіГѕГ№ГіГѕ ГґГ®Г°Г¬Гі
 			Question4Form^ q3 = gcnew Question4Form();
 			q3->Owner = this->Owner;
 			q3->Show();
